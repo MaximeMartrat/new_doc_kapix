@@ -1,0 +1,1398 @@
+// Autocompletes
+.autocompletes--p22 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 977;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Autocompletes > Main
+.main--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main
+.sous-main--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Main > Sous Main > Titre
+.titre--p22 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// Autocompletes > Main > Sous Main > text 1
+.the-autocomplete-component--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Utilisation
+.utilisation--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 25px 0 0 0;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Utilisation > Titre-categorie
+.titre-categorie--p22 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3
+.container-3--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample
+.sample--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container 2
+.container-2--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    align-items: center;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+  }
+  &.property-style {
+    padding: 5px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container 2 > Choix multiple
+.choix-multiple--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container
+.container--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 5px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-1--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Values
+.values--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.values-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-4--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Saisie de nombre
+.saisie-de-nombre--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.max-number-of-chips--p22 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-5--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Distinct
+.distinct--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.distinct-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-6--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Allow user input
+.allow-user-input--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.allow-user-input-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-7--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Case sensitive
+.case-sensitive--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.case-sensitive-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-8--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Display mode
+.display-mode--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.display-mode-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-9--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Hide Input Details
+.hide-input-details--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.hide-input-details-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-10--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 993;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Erasable chips
+.erasable-chips--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.erasable-chips-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-11--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 992;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Chip color
+.chip-color--p22 {
+  &.outer-style {
+    height: 100%;
+    min-height: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.chip-color-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container
+.container-12--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 991;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > Bullet background color
+.bullet-background-color--p22 {
+  &.outer-style {
+    height: 100%;
+    min-height: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+}
+// Autocompletes > Main > Sous Main > Container 3 > Sample > Container > Container > text
+.bullet-background-color-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > API
+.api--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > API > Code Preview
+.code-preview--p22 {
+  &.outer-style {
+    height: 750px;
+    width: 100%;
+    min-height: 750px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 750px;
+  }
+}
+// Autocompletes > Main > Sous Main > API > API
+.api-text--p22 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Autocompletes > Main > Sous Main > Example
+.example--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Examples
+.examples--p22 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props
+.props--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Props
+.props-text--p22 {
+  &.outer-style {
+    padding: 0 0 8px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons
+.icons--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > text
+.icons-text--p22 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2
+.container-2-container--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container
+.container-13--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    align-items: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Icons
+.icons-auto-complete--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container
+.container-14--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container
+.container-15--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > Prefix icon
+.prefix-icon--p22 {
+  &.outer-style {
+    width: 20%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > text
+.prefix-icon-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container
+.container-16--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > Interior prefix icon
+.interior-prefix-icon--p22 {
+  &.outer-style {
+    width: 20%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > text
+.interior-prefix-icon-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container
+.container-17--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > Suffix icon
+.suffix-icon--p22 {
+  &.outer-style {
+    width: 20%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > text
+.suffix-icon-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container
+.container-18--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > Exterior suffix icon
+.exterior-suffix-icon--p22 {
+  &.outer-style {
+    width: 20%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Icons > Container 2 > Container > Container > text
+.exterior-suffix-icon-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Code Preview
+.code-preview-1--p22 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple
+.multiple--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 50px 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > text
+.configuration--p22 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2
+.container-21--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container
+.container-19--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    align-items: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Configuration
+.configuration-auto-complete--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container
+.container-20--p22 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container
+.container-22--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > Show null button
+.show-null-button--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > text
+.show-null-button-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container
+.container-23--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > Placeholder
+.placeholder--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > text
+.placeholder-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container
+.container-24--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > Debounce
+.debounce--p22 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Multiple > Container 2 > Container > Container > text
+.debounce-text--p22 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Autocompletes > Main > Sous Main > Example > Props > Code Preview 1
+.code-preview-1-code-preview--p22 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Autocompletes > Right Panel
+.right-panel--p22 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Autocompletes > Right Panel > Sous Nav
+.sous-nav--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container
+.container-25--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container > text
+.contents--p22 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1
+.container-1-container--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > titre
+.titre-text--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-text--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > titre
+.titre-1--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-1--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > titre
+.titre-2--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-2--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p22 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p22 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p22 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Autocompletes > Icon
+.icon--p22 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

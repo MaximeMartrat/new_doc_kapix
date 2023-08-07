@@ -1,0 +1,30 @@
+.container-main{
+  position: fixed;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+.container-content {
+  width: 66%;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.footer-container {
+  width: 66%;
+}
+.dark {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+  border-color: black;
+}

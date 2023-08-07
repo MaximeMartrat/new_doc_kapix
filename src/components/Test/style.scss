@@ -1,0 +1,57 @@
+// test
+.test--c0 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// test > Type Writer
+.type-writer--c0 {
+  &.outer-style {
+    height: 29px;
+    width: 31.805%;
+    min-height: 29px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+  }
+  &.template-style {
+    max-height: 29px;
+  }
+}
+// test > Container
+.container--c0 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// test > Container > Image
+.image--c0 {
+  &.outer-style {
+    height: 299.01px;
+    width: 100%;
+    min-height: 299.01px;
+    min-width: 0;
+    align-self: stretch;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 299.01px;
+  }
+}

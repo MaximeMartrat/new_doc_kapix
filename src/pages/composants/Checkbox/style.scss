@@ -1,0 +1,943 @@
+// CheckBox Preview
+.check-box-preview-p1 {
+  &.outer-style {
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    min-height: 0;
+    min-width: 0;
+    padding: 50px 0 25px 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+// CheckBox Preview > sous_nav
+.sous-nav-p1 {
+  &.outer-style {
+    width: 256px;
+    min-width: 256px;
+    padding: 64px 0 0 0;
+    position: absolute;
+    z-index: 999;
+    inset: 0px 0px auto auto;
+  }
+  &.template-style {
+    max-width: 256px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > sous_nav > Container
+.container-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > sous_nav > Container > text
+.contenu-p1 {
+  &.outer-style {
+    padding: 16px 0 8px 76px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1
+.container-1-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 80px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > titre
+.titre-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 14px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > titre
+.text-1-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .text-1-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > titre
+.text-2-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .text-2-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie
+.sous-categorie-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie > sous-titre
+.sous-titre-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.text-3-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .text-3-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.text-4-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .text-4-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > sous_nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.text-5-p1 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .text-5-p1 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// CheckBox Preview > Icon
+.icon-p1 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 998;
+    inset: auto 200px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+// CheckBox Preview > Main
+.main-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main
+.sous-main-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Titre
+.text-6-p1 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > paragraphe
+.paragraphe-p1:not(#\ ) {
+  &.outer-style {
+    z-index: 999;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation
+.utilisation-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 25px 0 0 0;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation > Titre-categorie
+.titre-categorie-p1 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation > paragraphe
+.element-1-p1:not(#\ ) {
+  &.outer-style {
+    z-index: 999;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation > Container
+.container-2-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation > Container > CheckBox
+.check-box-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Utilisation > Container > text
+.checkbox-coche-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > API
+.api-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > API > API
+.text-7-p1 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple
+.exemple-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Exemples
+.exemples-p1 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes
+.proprietes-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Titre
+.text-8-p1 {
+  &.outer-style {
+    padding: 0 0 8px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs
+.couleurs-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > text
+.text-9-p1 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > text 1
+.la-couleur-des-cases-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container
+.container-3-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > Case à cocher oui
+.case-a-cocher-oui-p1 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ff0000ff;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > text
+.rouge-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > Case à cocher oui 1
+.case-a-cocher-oui-1-p1 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #2668c7ff;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > text 1
+.bleu-p1 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > Case à cocher oui 2
+.case-a-cocher-oui-2-p1 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 996;
+  }
+  &.property-style {
+    color: #55ef07ff;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > text 2
+.vert-p1 {
+  &.outer-style {
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > Case à cocher oui 4
+.case-a-cocher-oui-4-p1 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 994;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > text 3
+.bleu-kapix-p1 {
+  &.outer-style {
+    z-index: 993;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > Case à cocher oui 5
+.case-a-cocher-oui-5-p1 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 992;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Couleurs > Container > text 4
+.jaune-kapix-p1 {
+  &.outer-style {
+    z-index: 991;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs
+.valeurs-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > text
+.text-10-p1 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > text 1
+.les-valeurs-des-cases-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > Container
+.container-4-p1 {
+  &.outer-style {
+    width: 175px;
+    min-width: 175px;
+    z-index: 998;
+  }
+  &.template-style {
+    max-width: 175px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > Container > case uno
+.case-uno-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > Container > text
+.valeur-p1 {
+  &.outer-style {
+    width: 125px;
+    min-width: 125px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-width: 125px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > Container > case deuxio
+.case-deuxio-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Valeurs > Container > text 1
+.valeur-false-p1 {
+  &.outer-style {
+    width: 125px;
+    min-width: 125px;
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-width: 125px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats
+.etats-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > text
+.text-11-p1 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > text 1
+.text-12-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container
+.container-5-p1 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > case uno
+.checkbox-1-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > text
+.etat-initial-off-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > case deuxio
+.checkbox-2-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > text 1
+.etat-initial-on-p1 {
+  &.outer-style {
+    width: 125px;
+    min-width: 125px;
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-width: 125px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > text 1
+.il-est-egalement-possible-p1 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container
+.container-6-p1 {
+  &.outer-style {
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > case uno
+.checkbox-3-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    cursor: not-allowed;
+  }
+  &.template-style {
+    pointer-events: none;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > text
+.desactive-off-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > case deuxio
+.checkbox-4-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    cursor: not-allowed;
+  }
+  &.template-style {
+    pointer-events: none;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > Proprietes > Etats > Container > text 1
+.desactive-on-p1 {
+  &.outer-style {
+    width: 125px;
+    min-width: 125px;
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-width: 125px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur
+.multi-valeur-p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > paragraphe
+.element-2-p1:not(#\ ) {
+  &.outer-style {
+    z-index: 1000;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > TextJacob
+.text-jacob-p1 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > CaseJacob
+.case-jacob-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > TextJohn
+.text-john-p1 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > CaseJohn
+.case-john-p1 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 996;
+  }
+}
+// CheckBox Preview > Main > Sous_Main > Exemple > MultiValeur > text 1
+.resultat-john-quot-quot-operator-quo-p1 {
+  &.outer-style {
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}

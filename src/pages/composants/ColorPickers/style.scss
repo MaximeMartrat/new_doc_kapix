@@ -1,0 +1,506 @@
+// ColorPickers
+.color-pickers--p23 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 976;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// ColorPickers > Main
+.main--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// ColorPickers > Main > Sous Main
+.sous-main--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// ColorPickers > Main > Sous Main > Titre
+.titre--p23 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// ColorPickers > Main > Sous Main > text 1
+.the-color-picker-allows--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// ColorPickers > Main > Sous Main > Utilisation
+.utilisation--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 25px 0 0 0;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > Utilisation > Titre-categorie
+.titre-categorie--p23 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3
+.container-3--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container
+.container--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container 2
+.container-2--p23 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    align-items: center;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+  }
+  &.property-style {
+    padding: 5px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container 2 > Color picker
+.color-picker--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container
+.container-1--p23 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 5px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container
+.container-4--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > Color Icon
+.color-icon--p23 {
+  &.outer-style {
+    width: 20%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > text
+.color-icon-text--p23 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container
+.container-5--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > Show Text
+.show-text--p23 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > text
+.show-text-text--p23 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container
+.container-6--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > Show Color
+.show-color--p23 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > text
+.show-color-text--p23 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container
+.container-7--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > Show Label
+.show-label--p23 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+}
+// ColorPickers > Main > Sous Main > Container 3 > Container > Container > Container > text
+.show-label-text--p23 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// ColorPickers > Main > Sous Main > API
+.api--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Main > Sous Main > API > Code Preview
+.code-preview--p23 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// ColorPickers > Right Panel
+.right-panel--p23 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// ColorPickers > Right Panel > Sous Nav
+.sous-nav--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Right Panel > Sous Nav > Container
+.container-8--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// ColorPickers > Right Panel > Sous Nav > Container > text
+.contents--p23 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// ColorPickers > Right Panel > Sous Nav > Container 1
+.container-1-container--p23 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// ColorPickers > Right Panel > Sous Nav > Container 1 > titre
+.titre-text--p23 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-text--p23 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// ColorPickers > Icon
+.icon--p23 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

@@ -1,0 +1,2677 @@
+// Text Field
+.text-field--p20 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 979;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page
+.page--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Text Field > Page > Sous page
+.sous-page--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > h1
+.text-fields--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text
+.text-fields-components--p20 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > h2
+.usage--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 1
+.a-simple-text-field--p20 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Container
+.container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut
+.haut--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-1--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Code Preview
+.code-preview--p20 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas
+.bas--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut
+.haut-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-string-input--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-string-input--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-string-input--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-string-input--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-string-input--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-1--p20 {
+          &.property-style {
+            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-2--p20 {
+          &.property-style {
+            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas
+.bas-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-3--p20 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-3--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-3--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #EEEDEDFF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-3--p20 {
+          &.property-style {
+            border-color: #000000ff;
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-3--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-4--p20 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-4--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-4--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #EEEDEDFF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-4--p20 {
+          &.property-style {
+            border-color: #000000ff;
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-4--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-5--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-5--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-5--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-5--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-5--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-6--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-6--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-6--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-6--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-6--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > API
+.api--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 2
+.v-text-field--p20 {
+  &.outer-style {
+    z-index: 994;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > API
+.api-h-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 993;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > API
+.api-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 992;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > h3
+.counter--p20 {
+  &.outer-style {
+    z-index: 991;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 3
+.use-a-counter-prop--p20 {
+  &.outer-style {
+    z-index: 990;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Container
+.container-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 989;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut
+.haut-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-2--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-3--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Code Preview
+.code-preview-1--p20 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas
+.bas-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut
+.haut-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-7--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-7--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-7--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-8--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-8--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-8--p20 {
+        &.property-style {
+          border-width: 0 0 2px 0;
+          border-radius: 0;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-8--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-8--p20 {
+          &.property-style {
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-9--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-9--p20 {
+          &.property-style {
+            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Haut > Saisie de Texte
+.saisie-de-texte-10--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-10--p20 {
+          &.property-style {
+            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne
+.k-1-ere-ligne--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne > Saisie de Texte
+.saisie-de-texte-11--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne > Saisie de Texte
+.saisie-de-texte-12--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas
+.bas-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-13--p20 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-13--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-13--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #EEEDEDFF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-13--p20 {
+          &.property-style {
+            border-color: #000000ff;
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-13--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-14--p20 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-14--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-14--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#BCBBBBFF,#BCBBBBFF);
+          border-width: 0 0 2px 0;
+        }
+      }
+    }
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #EEEDEDFF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-14--p20 {
+          &.property-style {
+            border-color: #000000ff;
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-14--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-15--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-15--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-15--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-15--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-15--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Bas > Saisie de Texte
+.saisie-de-texte-16--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-16--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .saisie-de-texte-16--p20 {
+        &.property-style {
+          border-width: 2px;
+        }
+      }
+    }
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .saisie-de-texte-16--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .saisie-de-texte-16--p20 {
+          &.property-style {
+            border-style: solid;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne
+.k-2-e-ligne--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne > Saisie de Texte
+.saisie-de-texte-17--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne > Saisie de Texte
+.saisie-de-texte-18--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > h3
+.clearable--p20 {
+  &.outer-style {
+    z-index: 988;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 2
+.when-clearable-you--p20 {
+  &.outer-style {
+    z-index: 987;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Container
+.container-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 986;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut
+.haut-3--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-4--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-5--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Code Preview
+.code-preview-2--p20 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas
+.bas-3--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne
+.k-1-ere-ligne-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne > Saisie de Texte
+.saisie-de-texte-19--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1ère ligne > Saisie de Texte
+.saisie-de-texte-20--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne
+.k-2-e-ligne-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne > Saisie de Texte
+.saisie-de-texte-21--p20 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .saisie-de-texte-21--p20 {
+        &.property-style {
+          background: linear-gradient(0deg,#ADAAAAFF,#ADAAAAFF);
+        }
+      }
+    }
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #D7D6D6FF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2è ligne > Saisie de Texte
+.saisie-de-texte-22--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border: 1px solid #000000ff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > h3
+.disabled-and-readonly--p20 {
+  &.outer-style {
+    z-index: 985;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 2
+.text-fields-can-be--p20 {
+  &.outer-style {
+    z-index: 984;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Container
+.container-3--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 982;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut
+.haut-4--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-6--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-7--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Code Preview
+.code-preview-3--p20 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas
+.bas-4--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1
+.k-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1 > Saisie de Texte
+.saisie-de-texte-23--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #aeaeaeff;
+    border-width: 0 0 1px 0;
+    border-color: #aeaeaeff;
+    border-style: dotted;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 1 > Saisie de Texte
+.saisie-de-texte-24--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2
+.k-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2 > Saisie de Texte
+.saisie-de-texte-25--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #aeaeaeff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 2 > Saisie de Texte
+.saisie-de-texte-26--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 3
+.k-3--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 3 > Saisie de Texte
+.saisie-de-texte-27--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #aeaeaeff;
+    background-color: #EAE8E8FF;
+    border-width: 0 0 1px 0;
+    border-color: #aeaeaeff;
+    border-style: dotted;
+    border-radius: 4px;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 3 > Saisie de Texte
+.saisie-de-texte-28--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #000000ff;
+    background-color: #EAE8E8FF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 4
+.k-4--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 4 > Saisie de Texte
+.saisie-de-texte-29--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #aeaeaeff;
+    border: 1px solid #aeaeaeff;
+    border-radius: 4px;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > 4 > Saisie de Texte
+.saisie-de-texte-30--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 10px;
+  }
+}
+// Text Field > Page > Sous page > API
+.api-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 981;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > text 2
+.you-can-add-icons-to--p20 {
+  &.outer-style {
+    z-index: 980;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Container
+.container-4--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 979;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut
+.haut-5--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-8--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Haut > Icon
+.icon-9--p20 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Text Field > Page > Sous page > Container > Code Preview
+.code-preview-4--p20 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas
+.bas-5--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container
+.container-5--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-31--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-32--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-33--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 996;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #E8E8E8FF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-34--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 994;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #E8E8E8FF;
+    border-width: 0 0 1px 0;
+    border-color: #000000ff;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container
+.container-6--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-35--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-36--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-37--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 996;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border: 1px solid #000000ff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Container > Bas > Container > Saisie de Texte
+.saisie-de-texte-38--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 994;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border: 1px solid #000000ff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready
+.ready--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 978;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Text Field > Page > Sous page > Ready > Accessibility
+.accessibility--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Text Field > Page > Sous page > Ready > text
+.continue-your-learning--p20 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global
+.global--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-between;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Gauche
+.gauche--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Gauche > Edit
+.edit--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ff2d2dff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Gauche > Droite
+.droite--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Gauche > Droite > text
+.icon-fonts--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Gauche > Droite > text
+.features--p20 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Milieu
+.milieu--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Milieu > Colonne
+.colonne--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #036fffff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Milieu > Droite
+.droite-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Milieu > Droite > text
+.buttons--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Milieu > Droite > text
+.components--p20 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Droite
+.droite-1--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Droite > Button
+.button--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #074fa9ff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Droite > Droite@
+.droite-2--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.cards--p20 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.components-text--p20 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Text Field > Right Panel
+.right-panel--p20 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Text Field > Right Panel > Sous Nav
+.sous-nav--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container
+.container-7--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container > text
+.contenu--p20 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1
+.container-1-container--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > titre
+.titre--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > titre
+.titre-text--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-text--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > titre
+.titre-1--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-1--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p20 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p20 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p20 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Text Field > Icon
+.icon-10--p20 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

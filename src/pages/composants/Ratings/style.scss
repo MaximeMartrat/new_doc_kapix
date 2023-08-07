@@ -1,0 +1,1406 @@
+// Ratings
+.ratings--p10 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 989;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Ratings > Main
+.main--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Ratings > Main > Sous Main
+.sous-main--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > Titre
+.titre--p10 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation
+.utilisation--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 25px 0 0 0;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Titre-categorie
+.titre-categorie--p10 {
+  &.outer-style {
+    height: 52px;
+    min-height: 52px;
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+  &.template-style {
+    max-height: 52px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > text 1
+.the-v-rating-component--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample
+.sample--p10 {
+  &.outer-style {
+    height: 169px;
+    width: 100%;
+    min-height: 169px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 169px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Evaluation avec étoiles
+.evaluation-avec-etoiles--p10 {
+  &.outer-style {
+    width: 72.285%;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #b521b8ff;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container
+.container--p10 {
+  &.outer-style {
+    height: 163px;
+    width: 26.82%;
+    min-height: 163px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 163px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > text
+.half-increment--p10 {
+  &.outer-style {
+    width: 66.42%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > Half increment
+.half-increment-checkbox--p10 {
+  &.outer-style {
+    width: 17.79%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > text 1
+.size--p10 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > Curseur
+.curseur--p10 {
+  &.outer-style {
+    width: 71.515%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 997;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > text 1
+.length--p10 {
+  &.outer-style {
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Sample > Container > Curseur
+.curseur-slider--p10 {
+  &.outer-style {
+    width: 64.33%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 995;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Code Preview
+.code-preview--p10 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Ratings > Main > Sous Main > Utilisation > Container
+.container-1--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > API
+.api--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > API > API
+.api-text--p10 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Ratings > Main > Sous Main > Exemple
+.exemple--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Exemples
+.exemples--p10 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes
+.proprietes--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Titre
+.titre-text--p10 {
+  &.outer-style {
+    padding: 0 0 8px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs
+.couleurs--p10 {
+  &.outer-style {
+    height: 856px;
+    width: 100%;
+    min-height: 856px;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 856px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > text
+.color--p10 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > text 1
+.the-v-rating-component-text--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars
+.colors-stars--p10 {
+  &.outer-style {
+    height: 251px;
+    width: 100%;
+    min-height: 251px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 251px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Case à cocher oui
+.case-a-cocher-oui--p10 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ff0000ff;
+    cursor: pointer;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > text
+.rouge--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Case à cocher oui 1
+.case-a-cocher-oui-1--p10 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #2668c7ff;
+    cursor: pointer;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > text 1
+.bleu--p10 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Case à cocher oui 2
+.case-a-cocher-oui-2--p10 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 996;
+  }
+  &.property-style {
+    color: #55ef07ff;
+    cursor: pointer;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > text 2
+.vert--p10 {
+  &.outer-style {
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Case à cocher oui 4
+.case-a-cocher-oui-4--p10 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 994;
+  }
+  &.property-style {
+    cursor: pointer;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > text 3
+.bleu-kapix--p10 {
+  &.outer-style {
+    z-index: 993;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Case à cocher oui 5
+.case-a-cocher-oui-5--p10 {
+  &.outer-style {
+    padding: 5px 0 5px 5px;
+    z-index: 992;
+  }
+  &.property-style {
+    cursor: pointer;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > text 4
+.jaune-kapix--p10 {
+  &.outer-style {
+    z-index: 991;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 0 25px 0 0;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Colors stars > Evaluation avec étoiles
+.evaluation-avec-etoiles-rating--p10 {
+  &.outer-style {
+    height: 188px;
+    width: 100%;
+    min-height: 188px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 990;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 188px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Couleurs > Code Preview 1
+.code-preview-1--p10 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length
+.length-container--p10 {
+  &.outer-style {
+    height: 779px;
+    width: 100%;
+    min-height: 779px;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 779px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > text
+.length-text--p10 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > text 1
+.sometimes-an-application--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > Curseur
+.curseur-1--p10 {
+  &.outer-style {
+    width: 80.32%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > Length
+.length-1--p10 {
+  &.outer-style {
+    height: 179px;
+    width: 778.995px;
+    min-height: 179px;
+    min-width: 778.995px;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 778.995px;
+    max-height: 179px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > Length > text
+.custom-length--p10 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > Length > Evaluation avec étoiles
+.evaluation-avec-etoiles-1--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #ffd055ff;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Length > Code Preview 1
+.code-preview-1-code-preview--p10 {
+  &.outer-style {
+    height: 467.98px;
+    width: 98.805%;
+    min-height: 467.98px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 467.98px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented
+.incremented--p10 {
+  &.outer-style {
+    height: 731.98px;
+    width: 100%;
+    min-height: 731.98px;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 731.98px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented > text
+.incremented-text--p10 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented > text 1
+.a-rating-can-have-3--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented > Incremented
+.incremented-container--p10 {
+  &.outer-style {
+    height: 59.985px;
+    width: 778.995px;
+    min-height: 59.985px;
+    min-width: 778.995px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 778.995px;
+    max-height: 59.985px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented > Incremented > Evaluation avec étoiles
+.evaluation-avec-etoiles-2--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #ffd055ff;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Incremented > Code Preview 1
+.code-preview-11--p10 {
+  &.outer-style {
+    height: 467.98px;
+    width: 98.805%;
+    min-height: 467.98px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 467.98px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size
+.size-container--p10 {
+  &.outer-style {
+    height: 779px;
+    width: 100%;
+    min-height: 779px;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 779px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > text
+.size-text--p10 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > text 1
+.utilize-the-same-sizing--p10 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Size sample
+.size-sample--p10 {
+  &.outer-style {
+    height: 212.98px;
+    width: 636.985px;
+    min-height: 212.98px;
+    min-width: 636.985px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 636.985px;
+    max-height: 212.98px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Size sample > Evaluation avec étoiles
+.evaluation-avec-etoiles-3--p10 {
+  &.outer-style {
+    height: 35.98px;
+    width: 100%;
+    min-height: 35.98px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #ff31f9ff;
+    cursor: not-allowed;
+  }
+  &.template-style {
+    max-height: 35.98px;
+    pointer-events: none;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Size sample > Evaluation avec étoiles
+.evaluation-avec-etoiles-4--p10 {
+  &.outer-style {
+    height: 35.98px;
+    width: 100%;
+    min-height: 35.98px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #0fc110ff;
+    cursor: not-allowed;
+  }
+  &.template-style {
+    max-height: 35.98px;
+    pointer-events: none;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Size sample > Evaluation avec étoiles
+.evaluation-avec-etoiles-5--p10 {
+  &.outer-style {
+    height: 35.98px;
+    width: 100%;
+    min-height: 35.98px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #f7670dff;
+    cursor: not-allowed;
+  }
+  &.template-style {
+    max-height: 35.98px;
+    pointer-events: none;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Size sample > Evaluation avec étoiles
+.evaluation-avec-etoiles-6--p10 {
+  &.outer-style {
+    height: 61.975px;
+    width: 100%;
+    min-height: 61.975px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    color: #117bffff;
+    cursor: not-allowed;
+  }
+  &.template-style {
+    max-height: 61.975px;
+    pointer-events: none;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Size > Code Preview 1
+.code-preview-12--p10 {
+  &.outer-style {
+    height: 467.98px;
+    width: 98.805%;
+    min-height: 467.98px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 467.98px;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats
+.etats--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats > text
+.etats-text--p10 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats > Container
+.container-2--p10 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats > Disable Sample
+.disable-sample--p10 {
+  &.outer-style {
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats > Disable Sample > Evaluation avec étoiles
+.evaluation-avec-etoiles-7--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ffd055ff;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > Proprietes > Etats > Curseur
+.curseur-2--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 995;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > MultiValeur
+.multi-valeur--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Main > Sous Main > Exemple > MultiValeur > paragraphe
+.paragraphe--p10:not(#\ ) {
+  &.outer-style {
+    z-index: 1000;
+  }
+}
+// Ratings > Right Panel
+.right-panel--p10 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Ratings > Right Panel > Sous Nav
+.sous-nav--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container
+.container-3--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container > text
+.contenu--p10 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1
+.container-1-container--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > titre
+.titre-1--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-1--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > titre
+.titre-2--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-2--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > titre
+.titre-3--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-3--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p10 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-3--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-3--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-4--p10 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-4--p10 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Ratings > Icon
+.icon--p10 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

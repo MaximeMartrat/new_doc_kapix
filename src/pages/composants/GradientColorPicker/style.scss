@@ -1,0 +1,196 @@
+// GradientColorPicker
+.gradient-color-picker--p13 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 986;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+// GradientColorPicker > Main
+.main--p13 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// GradientColorPicker > Main > Title
+.title--p13 {
+  &.outer-style {
+    height: 159px;
+    width: 100%;
+    min-height: 159px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 159px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// GradientColorPicker > Main > Title > text
+.gradient-color-pickers--p13 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    padding: 15px;
+  }
+}
+// GradientColorPicker > Main > Title > Description
+.description--p13 {
+  &.outer-style {
+    width: 99.94%;
+    min-width: 0;
+    align-self: center;
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// GradientColorPicker > Main > Basic
+.basic--p13 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// GradientColorPicker > Main > Basic > text
+.usage--p13 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// GradientColorPicker > Main > Basic > text 1
+.v-color-picker-is--p13 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// GradientColorPicker > Main > Basic > Saisie de dégradé de couleurs
+.saisie-de-degrade-de-couleurs--p13 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 997;
+  }
+}
+// GradientColorPicker > Main > Basic > Code Preview
+.code-preview--p13 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// GradientColorPicker > Main > Basic > text
+.api-il-manque-des--p13 {
+  &.outer-style {
+    height: 119px;
+    min-height: 119px;
+    z-index: 995;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 119px;
+  }
+}
+// GradientColorPicker > Main > Auto Grow
+.auto-grow--p13 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// GradientColorPicker > Main > Auto Grow > text
+.exemple--p13 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// GradientColorPicker > Saisie de couleur
+.saisie-de-couleur--p13 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+    }
+  }
+}

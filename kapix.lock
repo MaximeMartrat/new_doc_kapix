@@ -1,0 +1,3121 @@
+{
+  "cliVersion": "0.0.237",
+  "projects": [
+    {
+      "id": "sparda/kapixcomponentspreview",
+      "codegenVersion": "4.0.1-alpha+1.1691398546476",
+      "dependencies": {},
+      "lang": "vuejs-3",
+      "stack": "front-end",
+      "version": 2,
+      "fileLocks": [
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/index.vue",
+          "type": "page",
+          "hash": "b249485d81e35cf0fe4fba2d1e38b3b7df6678ed",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "c3997a6799d750e1aa45f54d86a8115ad7dddc5a",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/store.ts",
+          "type": "store",
+          "hash": "2c46d8f2188915d570540ee686faed9d6b9c80d8",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2AFAEQut28sSdn6YEYpRWo",
+          "path": "src/pages/Header/WithLeftSidebar/SelectAvatar/style.scss",
+          "type": "style",
+          "hash": "7d87bf0ac7247e8aad2b7a0ac0f6cc80ece837ae",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/index.vue",
+          "type": "page",
+          "hash": "e03180cc2ecdcd883df1359bc4d71dc21142af4d",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "378ed692bf0c256949428ce63cf94f54050dca6c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/store.ts",
+          "type": "store",
+          "hash": "1287b11500120e9ab78b17b87b77222cf39ee4f5",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "2NWBm5kM2v34xPmmEgDMkQ",
+          "path": "src/pages/Header/WithLeftSidebar/Colors/style.scss",
+          "type": "style",
+          "hash": "00842c98c8499e2c501031160eac9480170bf378",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3QhiqXdQNCxkfvTd8bN3Lf.displayInProperty-aArmWSdCpQs5v2f1uHPgsZ",
+          "path": "src/components/Entities/RadioButtonItem/RadioButtons/index.vue",
+          "type": "component",
+          "hash": "3c474a21a4c3524b230db4a1c4aae387ba1292b9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3QhiqXdQNCxkfvTd8bN3Lf.displayInProperty-aArmWSdCpQs5v2f1uHPgsZ",
+          "path": "src/components/Entities/RadioButtonItem/RadioButtons/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "eb699d416a799172c8a7bd365ce4ad81a4b975f9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3QhiqXdQNCxkfvTd8bN3Lf.displayInProperty-aArmWSdCpQs5v2f1uHPgsZ",
+          "path": "src/components/Entities/RadioButtonItem/RadioButtons/store.ts",
+          "type": "store",
+          "hash": "077d8c8c5fe258b8e8fc1806035b5069b68cbb96",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3QhiqXdQNCxkfvTd8bN3Lf.displayInProperty-aArmWSdCpQs5v2f1uHPgsZ",
+          "path": "src/components/Entities/RadioButtonItem/RadioButtons/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3QhiqXdQNCxkfvTd8bN3Lf.displayInProperty-aArmWSdCpQs5v2f1uHPgsZ",
+          "path": "src/components/Entities/RadioButtonItem/RadioButtons/style.scss",
+          "type": "style",
+          "hash": "c5b76cb5348ffb5656e3c13ceb10d85899632f2f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "ar-DZ",
+          "path": "src/pages/Index/ar-DZ.vue",
+          "type": "page",
+          "hash": "a755208253f855a1360758b11ef437f75a6b08b1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "de-DE",
+          "path": "src/pages/Index/de-DE.vue",
+          "type": "page",
+          "hash": "afee4b7057fa9753eea75ed4ce4244c61db2ff1c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "en-AU",
+          "path": "src/pages/Index/en-AU.vue",
+          "type": "page",
+          "hash": "d96d36aef3597942a2c948c5dd5c5623ef143a1e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "en-US",
+          "path": "src/pages/Index/en-US.vue",
+          "type": "page",
+          "hash": "aaa08fa08be066c07f1b90cd3b3a2d2c139dcef5",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "es-PE",
+          "path": "src/pages/Index/es-PE.vue",
+          "type": "page",
+          "hash": "3a3669a13ece430ca8d2ad46fb6bddb07279661c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "fr-FR",
+          "path": "src/pages/Index/fr-FR.vue",
+          "type": "page",
+          "hash": "eaa60bb70ea1b06f4d425288eb836b3f76a4e670",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "ja-JP",
+          "path": "src/pages/Index/ja-JP.vue",
+          "type": "page",
+          "hash": "f548b49e96a0239b6e05224631d66887340aa5eb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "name": "index",
+          "path": "src/pages/index.vue",
+          "type": "page",
+          "hash": "c0cfc46227d5f2be36db0415fd3e8e1e08608a71",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "path": "src/pages/Index/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "553cf1c04e6f54ff33387f0f02b8baadab1b9b63",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "path": "src/pages/Index/store.ts",
+          "type": "store",
+          "hash": "b26685d711a372ba88eab063b3c8f8f46237a89e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "path": "src/pages/Index/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "3YrxjPtNG2GhutJAHV9cYy",
+          "path": "src/pages/Index/style.scss",
+          "type": "style",
+          "hash": "5d6002fef52ffb67d26292540174db0f954f2b36",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/index.vue",
+          "type": "page",
+          "hash": "35a3020504414704663dfb1a07b6eb94aa9e6e44",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "a063d9d32361a566b912bdba3c85dc67f06eb59f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/store.ts",
+          "type": "store",
+          "hash": "dc957f92a1318743ad82b0714e6ff69e71cf0711",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "4kWF9wcBUaiRXmZRbQNAR1",
+          "path": "src/pages/Header/WithLeftSidebar/TexteAnime/style.scss",
+          "type": "style",
+          "hash": "6a44a2965e2fdf2737acc948968a81f8eff5c157",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/index.vue",
+          "type": "page",
+          "hash": "5c0e091835c1e44facf8a72642d6ebd2f8224ae2",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "7cdd4493ba4584f7058187184c9e92e6bf506940",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/store.ts",
+          "type": "store",
+          "hash": "c77b83bd153d8d68887ec8dd3e4bfac8b3ea1b31",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "54f2Ns1jV8mWQxtcgtTpCS",
+          "path": "src/pages/Header/WithLeftSidebar/LanguageSelection/style.scss",
+          "type": "style",
+          "hash": "71240c94dd66ff6dd2f7d0d962fd7b421be2acca",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/index.vue",
+          "type": "page",
+          "hash": "76e95495fe5703e8cf507a44bdfb827bd2c4a439",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "e048db30ec5f1e4e6242d3b94f75c2d3fe3de280",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/store.ts",
+          "type": "store",
+          "hash": "3a2acedba35068f1681b8cfd66159294478c6170",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "5RmDcK687bz5saJagYK46c",
+          "path": "src/pages/Header/WithLeftSidebar/DatePickers/style.scss",
+          "type": "style",
+          "hash": "429ef7a92eaddefa2b54ce781cb2753eced77f35",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Password/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Password/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Password/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Password/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Password/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Password/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Password/index.vue",
+          "type": "page",
+          "hash": "83f9a732109a856eb6142938e8e5ff5f521aa8d1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Password/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "path": "src/pages/Header/WithLeftSidebar/Password/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "5ce30249516f57bfcafea24ce69bd9fb9ea32581",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "path": "src/pages/Header/WithLeftSidebar/Password/store.ts",
+          "type": "store",
+          "hash": "ab87ab21927f5fd716c1e06d765003a35f30a9df",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "path": "src/pages/Header/WithLeftSidebar/Password/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "6hkBMrN335yiqm7qY2eSGG",
+          "path": "src/pages/Header/WithLeftSidebar/Password/style.scss",
+          "type": "style",
+          "hash": "9d0308475c0de4a2e6a8c50511e4cb88a35d0278",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7R4cS3RER3AYVA98iS191U",
+          "path": "src/components/Paragraphe/index.vue",
+          "type": "component",
+          "hash": "e20e0937a86cac44fbf2dbe55d5461a461e2297a",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7R4cS3RER3AYVA98iS191U",
+          "path": "src/components/Paragraphe/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "d540a91712dacea671cd9b3f689ab7beb57d8af9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7R4cS3RER3AYVA98iS191U",
+          "path": "src/components/Paragraphe/store.ts",
+          "type": "store",
+          "hash": "3229a1a81bc7ac2bbdb27bb18ae9322a6bd0684f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7R4cS3RER3AYVA98iS191U",
+          "path": "src/components/Paragraphe/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7R4cS3RER3AYVA98iS191U",
+          "path": "src/components/Paragraphe/style.scss",
+          "type": "style",
+          "hash": "20a86766c05f3022f459327f1fb6c65c43d9af19",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/index.vue",
+          "type": "page",
+          "hash": "c6a115174967343326c692875045b1d5e097ae08",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "9f49dfc27f021cd80baad58a83cab3f5122510ea",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/store.ts",
+          "type": "store",
+          "hash": "3eddca7e54d5df8bcbecfbaf898fc3f08f683464",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "7esM5kAwR8Pt8odJj3WnLc",
+          "path": "src/pages/Header/WithLeftSidebar/TextField/style.scss",
+          "type": "style",
+          "hash": "9c52b25dea3a97bf926c84700d276834dd0a30ca",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/index.vue",
+          "type": "page",
+          "hash": "874d2d92cb5be88d106764fb18bade90c830ae69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "f0c61a6b28a1fc26511a8e8041dc878a9b586820",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/store.ts",
+          "type": "store",
+          "hash": "1536484b0d6c975ba627867b4b1d87d500d07551",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "8HnXwpHcUhCBnirCaYenwg",
+          "path": "src/pages/Header/WithLeftSidebar/GradientColorPicker/style.scss",
+          "type": "style",
+          "hash": "97cc5c9e296ffcbe3b1fa99b576414b9ffa749c3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/index.vue",
+          "type": "page",
+          "hash": "e6ebb4b3dc52da2f21326164e2d39b37b9b76f0a",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "9067146915b8c6d914848713a1cb1087802670eb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/store.ts",
+          "type": "store",
+          "hash": "98cd8ee317e59a19bb6779484059294ee300b882",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "bQa2XGpQxRp39SrNRTLyYF",
+          "path": "src/pages/Header/WithLeftSidebar/Texte/style.scss",
+          "type": "style",
+          "hash": "3d38cb39aaf8909cba61cf9cd8bc2e2036377433",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/index.vue",
+          "type": "page",
+          "hash": "908e14ec4195bd6f86073f281e1a2fc177ee0510",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "f0e6c9889d302e1b8bf6c628f4a9ee5053b2930c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/store.ts",
+          "type": "store",
+          "hash": "1c9d9a18c611cfe260c0c06969c825b90978b0ea",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cCNA27rDjwqi5ci2RJe2e3",
+          "path": "src/pages/Header/WithLeftSidebar/Autocompletes/style.scss",
+          "type": "style",
+          "hash": "254f31e65dcaceac8b26d6c083787e147e573e24",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Button/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Button/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Button/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Button/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Button/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Button/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Button/index.vue",
+          "type": "page",
+          "hash": "5e13bdf8f4309a34479b2d342d859874d0777b71",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Button/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "path": "src/pages/Header/WithLeftSidebar/Button/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "b11d21b1d090f027b47e9b18a8fb7f8fcd6f5d9d",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "path": "src/pages/Header/WithLeftSidebar/Button/store.ts",
+          "type": "store",
+          "hash": "d22fe0a3ebf76eae21d4c38107522b729cc32362",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "path": "src/pages/Header/WithLeftSidebar/Button/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cMCyJQeRvnhQRpEaH8v2oo",
+          "path": "src/pages/Header/WithLeftSidebar/Button/style.scss",
+          "type": "style",
+          "hash": "3b61b93beac8cdebe63220b9d3b62dcbc2e511cc",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cbvK5L4azyn2nX5xiWcqwr",
+          "path": "src/layouts/WithLeftSidebar.vue",
+          "type": "masterPage",
+          "hash": "0efdcfab41437cab4d076f65b5e86bb61b2297d9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cbvK5L4azyn2nX5xiWcqwr",
+          "path": "src/layouts/WithLeftSidebar/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "8f6f2fdfb0adfeecdf44fed7f28af13d01945538",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cbvK5L4azyn2nX5xiWcqwr",
+          "path": "src/layouts/WithLeftSidebar/store.ts",
+          "type": "store",
+          "hash": "2cbeb4b484f26f93902c80543bfee5e0468103d6",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cbvK5L4azyn2nX5xiWcqwr",
+          "path": "src/layouts/WithLeftSidebar/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "cbvK5L4azyn2nX5xiWcqwr",
+          "path": "src/layouts/WithLeftSidebar/style.scss",
+          "type": "style",
+          "hash": "4097b4696ef4c8cda562ac392c64f445646d0819",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/index.vue",
+          "type": "page",
+          "hash": "f927f9a5699d9bb7c5f2a7dfd86cdfddf99fb1b3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "bba432a4d8970603280f6837268a9db6541f23f8",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/store.ts",
+          "type": "store",
+          "hash": "87664731858168c174833248e91f65825ae0c8a6",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "d1bk2gcWCba6q4MQx87WrG",
+          "path": "src/pages/Header/WithLeftSidebar/Ratings/style.scss",
+          "type": "style",
+          "hash": "098dbb50134842a02ff02ee402c797de81994b57",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Image/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Image/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Image/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Image/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Image/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Image/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Image/index.vue",
+          "type": "page",
+          "hash": "3262047e95eb93640f3508cb5070b35a2df8ff9c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Image/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "path": "src/pages/Header/WithLeftSidebar/Image/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "32e3f41267aa7f5028a941ceb6b66b6e3873892c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "path": "src/pages/Header/WithLeftSidebar/Image/store.ts",
+          "type": "store",
+          "hash": "8e04c7e8ffbdb4f33668a57497338d3bd9cab994",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "path": "src/pages/Header/WithLeftSidebar/Image/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "ebfYHmEDrb2gbuvxprvV7B",
+          "path": "src/pages/Header/WithLeftSidebar/Image/style.scss",
+          "type": "style",
+          "hash": "cef9eb40483c028b64bf083c0b40254462be07ed",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/index.vue",
+          "type": "page",
+          "hash": "f08c7905b0bdb3d7a7859994c40dad3b16861a2d",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "885153d10e88e7fcb6b3457d59a38f9bb8859a40",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/store.ts",
+          "type": "store",
+          "hash": "e2fdc4d2a4a094c3a99f571ec41339a87596ca9c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "fySmNrAZHWxVkjNspiHo6m",
+          "path": "src/pages/Header/WithLeftSidebar/NumberInput/style.scss",
+          "type": "style",
+          "hash": "f88d8d594b979262d905c954f8624334dd762fc1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "gV44UEXKkKMqtaQcCCBqDY",
+          "path": "src/components/Affichage/index.vue",
+          "type": "component",
+          "hash": "25c1d7c0eb58263fe226bb082e5dfa5fd956250e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "gV44UEXKkKMqtaQcCCBqDY",
+          "path": "src/components/Affichage/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "73349bd33c8cb68f9ccdacfd57d2713d11eb4a01",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "gV44UEXKkKMqtaQcCCBqDY",
+          "path": "src/components/Affichage/store.ts",
+          "type": "store",
+          "hash": "8698dbd7d5427e60ceb1ab1bcfc178aa18747b46",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "gV44UEXKkKMqtaQcCCBqDY",
+          "path": "src/components/Affichage/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "gV44UEXKkKMqtaQcCCBqDY",
+          "path": "src/components/Affichage/style.scss",
+          "type": "style",
+          "hash": "e01437c26649b8a850ef5cbb788f9aaea06bd753",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iGJzLVgRgwFECgWivpcUJE",
+          "path": "src/components/RadioButtons/index.vue",
+          "type": "component",
+          "hash": "78f84701fdbec3a9f61a1a06cfc8f3ede5bcdceb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iGJzLVgRgwFECgWivpcUJE",
+          "path": "src/components/RadioButtons/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "8d235f054ecb3e13118ec389f8f3083683ef679e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iGJzLVgRgwFECgWivpcUJE",
+          "path": "src/components/RadioButtons/store.ts",
+          "type": "store",
+          "hash": "0fbc5b1b296bf3d3a2f6048f81e0ace2e0b34c0b",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iGJzLVgRgwFECgWivpcUJE",
+          "path": "src/components/RadioButtons/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iGJzLVgRgwFECgWivpcUJE",
+          "path": "src/components/RadioButtons/style.scss",
+          "type": "style",
+          "hash": "c0d7a665a80a84771eb5536af7568620c33de7eb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/index.vue",
+          "type": "page",
+          "hash": "0a5b1794ccdaa110d41d44b6570922d27616eee1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "b96243b38d0a6cf90a8e5b45d5c4950e113a139e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/store.ts",
+          "type": "store",
+          "hash": "88c60d1bf7f30feb6d2df03706a0c409b4adc980",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "iZViDJz6yVxJf4qdbHPbrH",
+          "path": "src/pages/Header/WithLeftSidebar/ColorPickers/style.scss",
+          "type": "style",
+          "hash": "d6c255b74a563c1fff8c191c840815a09321b317",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/index.vue",
+          "type": "page",
+          "hash": "2937bda56dd324057417330deb45c9b860b562f2",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "1dbdb3eba6be3c7b592d0aa00190567e50605621",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/store.ts",
+          "type": "store",
+          "hash": "3cbeedd0b9dd5ffee0aebda31ae9ef408505274f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "jJ7xQEvtebDxstDQ5EKGsb",
+          "path": "src/pages/Header/WithLeftSidebar/QrCode/style.scss",
+          "type": "style",
+          "hash": "6c5dd7d9fe057c7a7bd67e6621555c24490598da",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/index.vue",
+          "type": "page",
+          "hash": "debb2f9979668972e94b50f4f0889f62a5ee31d4",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "6adc858537d9aea25f98d0c5e25fd06d3440d41b",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/store.ts",
+          "type": "store",
+          "hash": "b97a8a562c007f455d341b16e32f6dcaa9be3f83",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kQYzNKWspzpcXCKr6uDWr3",
+          "path": "src/pages/Header/WithLeftSidebar/SocialNetworks/style.scss",
+          "type": "style",
+          "hash": "231b96640f88e6ffa495cbd9c9cfd9d6ec0cc41f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kRzQCxLLHJFuXHcMtRmez",
+          "path": "src/components/Test/index.vue",
+          "type": "component",
+          "hash": "34530d60892080d941cdc47059602974d6c99d0f",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kRzQCxLLHJFuXHcMtRmez",
+          "path": "src/components/Test/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "cd54d5a6e9f0d4f1db9e047a0bb5cece27aa8c71",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kRzQCxLLHJFuXHcMtRmez",
+          "path": "src/components/Test/store.ts",
+          "type": "store",
+          "hash": "c4ae2c29a2525037d6a28ee51a9039442c04484b",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kRzQCxLLHJFuXHcMtRmez",
+          "path": "src/components/Test/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kRzQCxLLHJFuXHcMtRmez",
+          "path": "src/components/Test/style.scss",
+          "type": "style",
+          "hash": "e3bf9ca56904dd70d4b5e1787960b4cc440648e4",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Link/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Link/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Link/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Link/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Link/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Link/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Link/index.vue",
+          "type": "page",
+          "hash": "f7e0f43b9abb94973f4d9248f61e0dfd1f04be51",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Link/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "path": "src/pages/Header/WithLeftSidebar/Link/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "97a9611e539a6c330733f262bf8c9465019e8d44",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "path": "src/pages/Header/WithLeftSidebar/Link/store.ts",
+          "type": "store",
+          "hash": "9f7445cce1753004224e64595d70e279572696ec",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "path": "src/pages/Header/WithLeftSidebar/Link/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "kxRTds6FCGqGtEhbZGdKbs",
+          "path": "src/pages/Header/WithLeftSidebar/Link/style.scss",
+          "type": "style",
+          "hash": "8648df3ed89aa88c5d8f4cb52c3c4b5642f29b82",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Map/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Map/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Map/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Map/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Map/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Map/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Map/index.vue",
+          "type": "page",
+          "hash": "a4a86f9aa8523db6151b916f19b5d89ad66c0ddb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Map/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "path": "src/pages/Header/WithLeftSidebar/Map/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "7e65526c6956deacd0d5f510d28b716238b33770",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "path": "src/pages/Header/WithLeftSidebar/Map/store.ts",
+          "type": "store",
+          "hash": "8e78957c2f858020239af3a18c914c6a61e82080",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "path": "src/pages/Header/WithLeftSidebar/Map/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "n2oxgycQQo3MbeXXhe37Tj",
+          "path": "src/pages/Header/WithLeftSidebar/Map/style.scss",
+          "type": "style",
+          "hash": "ecbc5bb4c49424fda14d35e7bc95bf042b11fb77",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/index.vue",
+          "type": "page",
+          "hash": "3c3b9f47e847a374d44e6b6486eae836425183f7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "7a43b9179f8f314e5f4d0984483b403ed9e22016",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/store.ts",
+          "type": "store",
+          "hash": "f0d8205c7d28f77d7445459db7091c77184a8215",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "o7BgoMhouaEFU3o1rVcA9v",
+          "path": "src/pages/Header/WithLeftSidebar/AfficheurDePageWeb/style.scss",
+          "type": "style",
+          "hash": "ff06e079ee59aecd084bcf8bbbde210a96133e17",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/index.vue",
+          "type": "page",
+          "hash": "5380ccf224bf070e37ceb88982c4274f1819ee80",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "57caa9fcd47110bd4e1bcac2bb1052bd0b4d54b3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/store.ts",
+          "type": "store",
+          "hash": "99d208d67af7f44b2c9940c4e626138c086e081a",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "oujVQhWbvyGS13YXjDZke9",
+          "path": "src/pages/Header/WithLeftSidebar/Icon/style.scss",
+          "type": "style",
+          "hash": "1257046d19155d133ba983ce6ec96cb9b5563500",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "page.displayInProperty-qdW3bAAVJXEZsqjfx7NEME",
+          "path": "src/components/Entities/Page/WithLeftSidebar/index.vue",
+          "type": "component",
+          "hash": "177f8a9537b692a723d2890b3e632e7cb5d007b2",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "page.displayInProperty-qdW3bAAVJXEZsqjfx7NEME",
+          "path": "src/components/Entities/Page/WithLeftSidebar/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "d90a7da011495d9804cc6e53ac236d14cb72b3d1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "page.displayInProperty-qdW3bAAVJXEZsqjfx7NEME",
+          "path": "src/components/Entities/Page/WithLeftSidebar/store.ts",
+          "type": "store",
+          "hash": "e570d33202031fc1cf4286ec0b21cb67f73aae51",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "page.displayInProperty-qdW3bAAVJXEZsqjfx7NEME",
+          "path": "src/components/Entities/Page/WithLeftSidebar/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "page.displayInProperty-qdW3bAAVJXEZsqjfx7NEME",
+          "path": "src/components/Entities/Page/WithLeftSidebar/style.scss",
+          "type": "style",
+          "hash": "c0688680ec3dbbfaecf9ee374893d0b71061647c",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/index.vue",
+          "type": "page",
+          "hash": "acc90db18494e508323f54446d5e9d3be0267aa9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "cb5ccb82bb5eb9982d2f6d349ae60ab11ed2c52e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/store.ts",
+          "type": "store",
+          "hash": "ae10484fb7cc9b825eea299d685d0163ec33d27b",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "pfjS8j3fcvkwRkpdHMUZJA",
+          "path": "src/pages/Header/WithLeftSidebar/ZoneDeTexte/style.scss",
+          "type": "style",
+          "hash": "58a7863ad4e8f2cc0074170569dcdff3a3a05c25",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/index.vue",
+          "type": "page",
+          "hash": "5354401b251dbc8c7057ca79273370b78d664773",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "340fc972366a78969b49d4bb2aa22165090433e5",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/store.ts",
+          "type": "store",
+          "hash": "ca6814a1c9f44b3e4f68e8e9932ecca7413cd1ff",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "rANerz51rBSSuvgLufdiTx",
+          "path": "src/pages/Header/WithLeftSidebar/DateTimePickers/style.scss",
+          "type": "style",
+          "hash": "0d802551cd7f178e309d898a4f05ea510fafa401",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/index.vue",
+          "type": "page",
+          "hash": "c0e653e0fd49ece41d6fee9d5b08bc848a4717f3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "778e139fcb38c9aebb9690fc4b0975658aa455d1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/store.ts",
+          "type": "store",
+          "hash": "ca090fd9d1e84a8358beac2d7026433df7ab878e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "skqLgRTzwMDjNyKSEC8ejm",
+          "path": "src/pages/Header/WithLeftSidebar/Selects/style.scss",
+          "type": "style",
+          "hash": "677fff50d1c5535032745d20d8b760e42feca916",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "sz2dFEK4xXxBPGw1aRcTXX",
+          "path": "src/layouts/Header.vue",
+          "type": "masterPage",
+          "hash": "73f998e5e8858bd7114c98877a08cbf0ef232316",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "sz2dFEK4xXxBPGw1aRcTXX",
+          "path": "src/layouts/Header/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "23b96880450b0300a65ef7194d414f8159c26b82",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "sz2dFEK4xXxBPGw1aRcTXX",
+          "path": "src/layouts/Header/store.ts",
+          "type": "store",
+          "hash": "a402e993fa820fad175584407979617e3f7fb7c0",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "sz2dFEK4xXxBPGw1aRcTXX",
+          "path": "src/layouts/Header/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "sz2dFEK4xXxBPGw1aRcTXX",
+          "path": "src/layouts/Header/style.scss",
+          "type": "style",
+          "hash": "221bc6fe6f81bfd7d64e2a3202595b63e50f4de3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/index.vue",
+          "type": "page",
+          "hash": "743875f617998d149bd5e5936838f9b59db66f2e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "a8caba00a92b460330ac31bec8dd396160ed620e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/store.ts",
+          "type": "store",
+          "hash": "5d513288090935de0d624792c9362dc6ab7831f0",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "t1s4dusg8Pe2396Z9XuDwA",
+          "path": "src/pages/Header/WithLeftSidebar/ToggleButtons/style.scss",
+          "type": "style",
+          "hash": "6985474a8449015f66d1b0c2c1dbc2a4e4202eb8",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "tMB7HRyJC9n7BB4A99AK7M",
+          "path": "src/components/Bouton/index.vue",
+          "type": "component",
+          "hash": "e6755b8564cdf520949d14afeaece9ea40863501",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "tMB7HRyJC9n7BB4A99AK7M",
+          "path": "src/components/Bouton/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "db0f282fb4df31dbccae101190c6e0cdbc9a8cef",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "tMB7HRyJC9n7BB4A99AK7M",
+          "path": "src/components/Bouton/store.ts",
+          "type": "store",
+          "hash": "09fa971076cbd52a8ee2979aca3bec4a199d4340",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "tMB7HRyJC9n7BB4A99AK7M",
+          "path": "src/components/Bouton/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "tMB7HRyJC9n7BB4A99AK7M",
+          "path": "src/components/Bouton/style.scss",
+          "type": "style",
+          "hash": "dfaa6f92ef98e69f1c530cd73cbd78efbfa272a2",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/index.vue",
+          "type": "page",
+          "hash": "53324b790140dbcc3c0c4b5bff71dfd4f1c9a1be",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "d7ec6fd5ac63664d0817f5c2a9327c27a4486e45",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/store.ts",
+          "type": "store",
+          "hash": "fdb3fca1b9650d0b3eb1dd84e326a644b36d05fb",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "uMhG5qPy3JSUMZ9qoTahQj",
+          "path": "src/pages/Header/WithLeftSidebar/RadioButton/style.scss",
+          "type": "style",
+          "hash": "daad7abd8037f7b68e364e8b6af6f94114ddce7e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "ar-DZ",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/ar-DZ.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "de-DE",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/de-DE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "en-AU",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/en-AU.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "en-US",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/en-US.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "es-PE",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/es-PE.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "fr-FR",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/fr-FR.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "index",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/index.vue",
+          "type": "page",
+          "hash": "936b969b9db479e084e518b160dad122653fac38",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "name": "ja-JP",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/ja-JP.vue",
+          "type": "page",
+          "hash": "c475b012986e710651105f4f9257fb6b544041b7",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "938dc8d748237e71157482b390a5ea3681b30238",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/store.ts",
+          "type": "store",
+          "hash": "f31f55f84a83bea7d0e8d14a7acd45ef27e51c88",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "w6XNRFHg3JPbR1AM3atRnx",
+          "path": "src/pages/Header/WithLeftSidebar/SelectInput/style.scss",
+          "type": "style",
+          "hash": "9ff3f7df7b332ce823b683234848bdce19054ac0",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "xyTKFGvJ6A6xBoVcsu7gA8",
+          "name": "404",
+          "path": "src/pages/[...all].vue",
+          "type": "page",
+          "hash": "91d10533f5d5825abb7994e7feeecefd64e863ce",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "xyTKFGvJ6A6xBoVcsu7gA8",
+          "path": "src/pages/Page404/store.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "8fa7ae406c3ddb01328ce15ce040eac109f48ae2",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "xyTKFGvJ6A6xBoVcsu7gA8",
+          "path": "src/pages/Page404/store.ts",
+          "type": "store",
+          "hash": "46f4405502de559913686397d9d4fcad1dd0b3cc",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "xyTKFGvJ6A6xBoVcsu7gA8",
+          "path": "src/pages/Page404/style.custom.scss",
+          "type": "style",
+          "custom": true,
+          "hash": "dbabd81fa309a7e40110b779f36dee9946505c69",
+          "postLintHash": "tempHash"
+        },
+        {
+          "id": "xyTKFGvJ6A6xBoVcsu7gA8",
+          "path": "src/pages/Page404/style.scss",
+          "type": "style",
+          "hash": "c73dac935c16330b8e54d4643e360ac2fc91f1b1",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "public/favicon.png",
+          "type": "asset",
+          "hash": "76fa2fb617c2878bbd64754d00a80c7616f68829",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "public/pwa-192x192.png",
+          "type": "asset",
+          "hash": "6d5d780a0d34783a82daf2fbd366baa2cb09aac3",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "public/pwa-512x512.png",
+          "type": "asset",
+          "hash": "69fbb9f10519913843915b02cc24afd9ac925c5e",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": ".github/workflows/kapix-action.yml",
+          "type": "internal",
+          "custom": true,
+          "hash": "c7f2e63cf6d16c0367919de1463ae70679f6c22a",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": ".gitlab-ci.yml",
+          "type": "internal",
+          "custom": true,
+          "hash": "40e636ca6752a0d882418010812b80c155763a29",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": ".vscode/settings.json",
+          "type": "internal",
+          "hash": "117d3d30bfe752bdbf40696ab7e0e88e95142ab8",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "index.html",
+          "type": "internal",
+          "custom": true,
+          "hash": "c2b84ed07fea4133bf02d6de14746dcbba699081",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/app-info.json",
+          "type": "internal",
+          "hash": "fbba927e3af80f18550bdb0e0f4c89fc724a7bf9",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/dynamicRoutes.ts",
+          "type": "internal",
+          "custom": true,
+          "hash": "a83f19b70108afc290ecca06964cb95324d245aa",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/main.ts",
+          "type": "internal",
+          "custom": true,
+          "hash": "d0b837704a9f4c94f117b9cee584b8bf32427d8b",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/shims.d.ts",
+          "type": "internal",
+          "hash": "20116e3f1abab9fc93ea05f09ce3c7dfefe78aaa",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/stores/appAuthentication.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "989028e21a93c7c7b88bac7e80e4139192f1b026",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/stores/appAuthentication.ts",
+          "type": "store",
+          "hash": "51bfb59bfeea152b4d5a295fc39d6beb74fe1df6",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/stores/appData.custom.ts",
+          "type": "store",
+          "custom": true,
+          "hash": "e25f2e9d8a32fd53e09db647b267d32540d984de",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/stores/appData.ts",
+          "type": "store",
+          "hash": "877d794c77e9161abff99ef70b14c327d6ccd805",
+          "postLintHash": "tempHash"
+        },
+        {
+          "path": "src/stores/index.ts",
+          "type": "store",
+          "hash": "e14eee2b36f433a0619e96e2aeabc3806edc3c83",
+          "postLintHash": "tempHash"
+        }
+      ]
+    }
+  ]
+}

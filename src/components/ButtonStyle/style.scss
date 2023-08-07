@@ -1,0 +1,27 @@
+.i-fa-moon-o {
+  --un-icon: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 1472 1536' width='1.2em' height='1.2em' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath fill='currentColor' d='M1262 1175q-54 9-110 9q-182 0-337-90T570 849t-90-337q0-192 104-357q-201 60-328.5 229T128 768q0 130 51 248.5t136.5 204t204 136.5t248.5 51q144 0 273.5-61.5T1262 1175zm203-85q-94 203-283.5 324.5T768 1536q-156 0-298-61t-245-164t-164-245T0 768q0-153 57.5-292.5t156-241.5T449 69.5T739 1q44-2 61 39q18 41-15 72q-86 78-131.5 181.5T608 512q0 148 73 273t198 198t273 73q118 0 228-51q41-18 72 13q14 14 17.5 34t-4.5 38z'/%3E%3C/svg%3E");
+  -webkit-mask: var(--un-icon) no-repeat;
+  mask: var(--un-icon) no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background-color: currentColor;
+  color: inherit;
+  width: 2em;
+  height: 2em;
+  padding: 15px;
+}
+.i-fa-sun-o {
+  --un-icon: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 1728 1792' width='1.2em' height='1.2em' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath fill='currentColor' d='M1440 896q0-117-45.5-223.5t-123-184t-184-123T864 320t-223.5 45.5t-184 123t-123 184T288 896t45.5 223.5t123 184t184 123T864 1472t223.5-45.5t184-123t123-184T1440 896zm276 277q-4 15-20 20l-292 96v306q0 16-13 26q-15 10-29 4l-292-94l-180 248q-10 13-26 13t-26-13l-180-248l-292 94q-14 6-29-4q-13-10-13-26v-306l-292-96q-16-5-20-20q-5-17 4-29l180-248L16 648q-9-13-4-29q4-15 20-20l292-96V197q0-16 13-26q15-10 29-4l292 94L838 13q9-12 26-12t26 12l180 248l292-94q14-6 29 4q13 10 13 26v306l292 96q16 5 20 20q5 16-4 29l-180 248l180 248q9 12 4 29z'/%3E%3C/svg%3E");
+  -webkit-mask: var(--un-icon) no-repeat;
+  mask: var(--un-icon) no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background-color: currentColor;
+  color: inherit;
+  width: 2em;
+  height: 2em;
+  padding: 15px;
+}
+button {
+  margin: auto;
+}

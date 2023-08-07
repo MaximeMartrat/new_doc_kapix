@@ -1,0 +1,1851 @@
+// Button
+.button--p5 {
+  &.outer-style {
+    height: 96.645%;
+    width: 100.075%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 994;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Button > Main
+.main--p5 {
+  &.outer-style {
+    height: 7251.88px;
+    width: 100%;
+    min-height: 7251.88px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 7251.88px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Button > Main > Sous Main
+.sous-main--p5 {
+  &.outer-style {
+    height: 7224.92px;
+    width: 100%;
+    min-height: 7224.92px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 7224.92px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Intro
+.intro--p5 {
+  &.outer-style {
+    height: 231px;
+    width: 100%;
+    min-height: 231px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 231px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Intro > Titre
+.titre--p5 {
+  &.outer-style {
+    width: 95.37%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// Button > Main > Sous Main > Intro > text 1
+.the-v-btn-component--p5 {
+  &.outer-style {
+    height: 103px;
+    width: 96.095%;
+    min-height: 103px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 25px;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 103px;
+  }
+}
+// Button > Main > Sous Main > Usage
+.usage--p5 {
+  &.outer-style {
+    height: 1328.97px;
+    width: 100%;
+    min-height: 1328.97px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 1328.97px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Usage > Titre-categorie
+.titre-categorie--p5 {
+  &.outer-style {
+    width: 97.535%;
+    min-width: 0;
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Button > Main > Sous Main > Usage > text 1
+.buttons-in-their-simplest--p5 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample
+.buttons-sample--p5 {
+  &.outer-style {
+    height: 454.975px;
+    width: 100%;
+    min-height: 454.975px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 454.975px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container 5
+.container-5--p5 {
+  &.outer-style {
+    height: 69.975px;
+    width: 100%;
+    min-height: 69.975px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 69.975px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container 5 > text
+.outlined--p5 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    padding: 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container 5 > text
+.rounded--p5 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    padding: 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container 5 > text
+.tile--p5 {
+  &.outer-style {
+    width: 9.865%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container
+.container--p5 {
+  &.outer-style {
+    height: 379.99px;
+    width: 67.61%;
+    min-height: 379.99px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 379.99px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container > button
+.button-1--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container
+.container-1--p5 {
+  &.outer-style {
+    height: 373.99px;
+    width: 25.475%;
+    min-height: 373.99px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 373.99px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container > Case à cocher oui
+.case-a-cocher-oui--p5 {
+  &.outer-style {
+    height: 45.985px;
+    width: 16.435%;
+    min-height: 45.985px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 45.985px;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container > text
+.disabled--p5 {
+  &.outer-style {
+    height: 46.01px;
+    width: 82.94%;
+    min-height: 46.01px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 46.01px;
+  }
+}
+// Button > Main > Sous Main > Usage > Buttons sample > Container > color
+.color--p5 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Button > Main > Sous Main > Usage > Code Preview
+.code-preview--p5 {
+  &.outer-style {
+    height: 691.99px;
+    width: 100%;
+    min-height: 691.99px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 691.99px;
+  }
+}
+// Button > Main > Sous Main > API
+.api--p5 {
+  &.outer-style {
+    height: 166.99px;
+    width: 100%;
+    min-height: 166.99px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 166.99px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > API > Titre
+.titre-text--p5 {
+  &.outer-style {
+    width: 93.11%;
+    min-width: 0;
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Button > Main > Sous Main > Caveats
+.caveats--p5 {
+  &.outer-style {
+    height: 354.995px;
+    width: 100%;
+    min-height: 354.995px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 354.995px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Caveats > Titre
+.titre-1--p5 {
+  &.outer-style {
+    width: 93.11%;
+    min-width: 0;
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Button > Main > Sous Main > Caveats > content
+.content--p5 {
+  &.outer-style {
+    height: 251.99px;
+    min-height: 251.99px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 25px;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 251.99px;
+  }
+}
+// Button > Main > Sous Main > Exemple
+.exemple--p5 {
+  &.outer-style {
+    height: 6191.92px;
+    width: 100%;
+    min-height: 6191.92px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 6191.92px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes
+.proprietes--p5 {
+  &.outer-style {
+    height: 5503.95px;
+    width: 100%;
+    min-height: 5503.95px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 5503.95px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Container 1
+.container-1-container--p5 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Titre
+.titre-2--p5 {
+  &.outer-style {
+    width: 96.17%;
+    min-width: 0;
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc
+.props-bloc--p5 {
+  &.outer-style {
+    height: 870px;
+    width: 100%;
+    min-height: 870px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 870px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc > sample block
+.sample-block--p5 {
+  &.outer-style {
+    height: 155.985px;
+    width: 100%;
+    min-height: 155.985px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 155.985px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc > sample block > text
+.block--p5 {
+  &.outer-style {
+    width: 96.885%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc > sample block > text 1
+.block-buttons-extend--p5 {
+  &.outer-style {
+    width: 96.5%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc > sample block > button
+.button-2--p5 {
+  &.outer-style {
+    width: 100.04%;
+    min-width: 0;
+    align-self: center;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > props bloc > Code Preview
+.code-preview-1--p5 {
+  &.outer-style {
+    height: 613.985px;
+    width: 100%;
+    min-height: 613.985px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 613.985px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed
+.props-depressed--p5 {
+  &.outer-style {
+    height: 768.98px;
+    width: 100%;
+    min-height: 768.98px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 768.98px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed > text
+.depressed--p5 {
+  &.outer-style {
+    width: 96.885%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed > text 1
+.depressed-buttons-still--p5 {
+  &.outer-style {
+    width: 90.905%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed > depressed
+.depressed-container--p5 {
+  &.outer-style {
+    height: 74px;
+    width: 100%;
+    min-height: 74px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 74px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed > depressed > button
+.button-3--p5 {
+  &.outer-style {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Depressed > Code Preview 1
+.code-preview-1-code-preview--p5 {
+  &.outer-style {
+    height: 551.975px;
+    width: 100%;
+    min-height: 551.975px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-radius: 7px 7px 7px 7px;
+    overflow: hidden;
+    padding: 1.25px 0 0 0;
+  }
+  &.template-style {
+    max-height: 551.975px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined
+.props-outlined--p5 {
+  &.outer-style {
+    height: 727px;
+    width: 100%;
+    min-height: 727px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 727px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined > text
+.outlined-text--p5 {
+  &.outer-style {
+    width: 97.885%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined > text 1
+.outlined-buttons-inherit--p5 {
+  &.outer-style {
+    width: 90.155%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined > outlined
+.outlined-container--p5 {
+  &.outer-style {
+    height: 74px;
+    width: 100%;
+    min-height: 74px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 74px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined > outlined > button
+.outlined-button--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props outlined > Code Preview
+.code-preview-2--p5 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded
+.props-rounded--p5 {
+  &.outer-style {
+    height: 723.99px;
+    width: 100%;
+    min-height: 723.99px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 723.99px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded > text
+.rounded-text--p5 {
+  &.outer-style {
+    width: 97.1%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded > text 1
+.rounded-buttons-behave--p5 {
+  &.outer-style {
+    width: 94.175%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded > Sample rounded
+.sample-rounded--p5 {
+  &.outer-style {
+    height: 74px;
+    width: 100%;
+    min-height: 74px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 74px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded > Sample rounded > button
+.rounded-button--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Rounded > Code Preview 1
+.code-preview-11--p5 {
+  &.outer-style {
+    height: 440px;
+    width: 94.33%;
+    min-height: 440px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 440px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing
+.props-sizing--p5 {
+  &.outer-style {
+    height: 871.99px;
+    width: 100%;
+    min-height: 871.99px;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 871.99px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > text
+.sizing--p5 {
+  &.outer-style {
+    width: 97.88%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > text 1
+.buttons-can-be-given--p5 {
+  &.outer-style {
+    width: 98.79%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size
+.sample-size--p5 {
+  &.outer-style {
+    height: 116px;
+    width: 100%;
+    min-height: 116px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 116px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size > button
+.extra-small-button--p5 {
+  &.outer-style {
+    height: 33px;
+    width: 20.685%;
+    min-height: 33px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #73d8ffff;
+    border: 1px solid #ffffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 33px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size > button
+.small-button--p5 {
+  &.outer-style {
+    height: 44px;
+    width: 15.095%;
+    min-height: 44px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #ffffffff;
+    border: 1px solid #ffffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 44px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size > button 2
+.normal-button--p5 {
+  &.outer-style {
+    height: 56px;
+    width: 16.44%;
+    min-height: 56px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #fb9e00ff;
+    border: 1px solid #ffffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 56px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size > button 2
+.large-button--p5 {
+  &.outer-style {
+    height: 70px;
+    width: 15.265%;
+    min-height: 70px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #f44e3bff;
+    border: 1px solid #ffffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 70px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > sample size > button 2
+.extra-large-button--p5 {
+  &.outer-style {
+    height: 86px;
+    width: 21.325%;
+    min-height: 86px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #68bc00ff;
+    border: 1px solid #ffffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 86px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Sizing > Code Preview 1
+.code-preview-12--p5 {
+  &.outer-style {
+    height: 526.975px;
+    width: 100%;
+    min-height: 526.975px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 526.975px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text
+.props-text--p5 {
+  &.outer-style {
+    height: 676.985px;
+    width: 100%;
+    min-height: 676.985px;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 676.985px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > intro text
+.intro-text--p5 {
+  &.outer-style {
+    height: 110px;
+    width: 100%;
+    min-height: 110px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 110px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > intro text > text
+.text--p5 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > intro text > text
+.text-buttons-have-no--p5 {
+  &.outer-style {
+    height: 70px;
+    min-height: 70px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 70px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Text button
+.text-button--p5 {
+  &.outer-style {
+    height: 56px;
+    width: 100%;
+    min-height: 56px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 56px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Text button > button
+.normal--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Text button > button
+.primary--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Text button > button
+.error--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #ff0000ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Text button > button
+.disabled-button--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 997;
+  }
+  &.property-style {
+    color: #c6c6c6ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    pointer-events: none;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Text > Code Preview 1
+.code-preview-13--p5 {
+  &.outer-style {
+    height: 508.995px;
+    width: 100%;
+    min-height: 508.995px;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 508.995px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile
+.props-tile--p5 {
+  &.outer-style {
+    height: 630px;
+    width: 100%;
+    min-height: 630px;
+    min-width: 0;
+    z-index: 993;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 630px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile > text
+.tile-text--p5 {
+  &.outer-style {
+    width: 81.945%;
+    min-width: 0;
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile > text 1
+.tile-buttons-behave--p5 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile > Sample Tile
+.sample-tile--p5 {
+  &.outer-style {
+    height: 74px;
+    width: 100%;
+    min-height: 74px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.template-style {
+    max-height: 74px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile > Sample Tile > button
+.button-4--p5 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Button > Main > Sous Main > Exemple > Proprietes > Props Tile > Code Preview 1
+.code-preview-14--p5 {
+  &.outer-style {
+    height: 549.99px;
+    width: 100%;
+    min-height: 549.99px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 549.99px;
+  }
+}
+// Button > Main > Sous Main > Exemple > Misc
+.misc--p5 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Right Panel
+.right-panel--p5 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Button > Right Panel > Sous Nav
+.sous-nav--p5 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Button > Right Panel > Sous Nav > Container
+.container-2--p5 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Right Panel > Sous Nav > Container > text
+.contenu--p5 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1
+.container-11--p5 {
+  &.outer-style {
+    height: 518.725px;
+    width: 100%;
+    min-height: 518.725px;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.template-style {
+    max-height: 518.725px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > titre
+.titre-3--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-3--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > titre
+.titre-4--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-4--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > titre
+.titre-5--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-5--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p5 {
+  &.outer-style {
+    height: 335.83px;
+    width: 100%;
+    min-height: 335.83px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.template-style {
+    max-height: 335.83px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p5 {
+  &.outer-style {
+    height: 303.86px;
+    width: 100%;
+    min-height: 303.86px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.template-style {
+    max-height: 303.86px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-3--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-3--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-4--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-4--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-5--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-5--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-6--p5 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-6--p5 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 994;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Button > Icon
+.icon--p5 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

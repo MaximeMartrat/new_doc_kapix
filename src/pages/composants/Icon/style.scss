@@ -1,0 +1,2970 @@
+// Icon
+.icon--p6 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 993;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page
+.page--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Icon > Page > Sous page
+.sous-page--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Titre
+.titre--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+  }
+}
+// Icon > Page > Sous page > Paragraphe
+.paragraphe--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Usage
+.usage--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 25px 0 0 0;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Usage > Titre-categorie
+.titre-categorie--p6 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Icon > Page > Sous page > Usage > Paragraphe
+.paragraphe-text--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1
+.section-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container
+.container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Bouton default
+.bouton-default--p6 {
+  &.outer-style {
+    align-self: flex-start;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container
+.container-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container
+.container-2--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: auto;
+    width: auto;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container > Usage Icon Sample
+.usage-icon-sample--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container 1
+.container-1-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container 1 > Size
+.size--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container 1 > Color
+.color--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Container > Container > Container 1 > Icon
+.icon-select-input--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Usage > Section 1 > Code Preview
+.code-preview--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple
+.exemple--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Exemples
+.exemples--p6 {
+  &.outer-style {
+    padding: 0 0 12px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2.125rem;
+    font-weight: 400;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes
+.proprietes--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Titre
+.titre-text--p6 {
+  &.outer-style {
+    padding: 0 0 8px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs
+.couleurs--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > text
+.color-text--p6 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Paragraphe
+.paragraphe-1--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors
+.sample-colors--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Conteneur haut
+.conteneur-haut--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Conteneur haut > Reverse color
+.reverse-color--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Conteneur haut > Code preview
+.code-preview-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Code Preview
+.code-preview-1--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color
+.icons-color--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Icon
+.icon-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #0dff00ff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Chatbox
+.chatbox--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #0039ffff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Keyboard
+.keyboard--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #e204ffff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Letter
+.letter--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    color: #30844cff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Arrow
+.arrow--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 996;
+  }
+  &.property-style {
+    color: #055111ff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Couleurs > Sample Colors > Icons color > Alternate arrow
+.alternate-arrow--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 995;
+  }
+  &.property-style {
+    color: #ff8700ff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs
+.valeurs--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text
+.events--p6 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text
+.click--p6 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text 1
+.binding-any-click-event--p6 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors
+.sample-colors-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut
+.conteneur-haut-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut > Reverse color 2
+.reverse-color-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut > Code preview 2
+.code-preview-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Code Preview
+.code-preview-3--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas
+.conteneur-bas--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content
+.content--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 20px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content > Barre haut
+.barre-haut--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #f447dfff;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content > Barre haut > Titre
+.titre-1--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content > Bas
+.bas--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content > Bas > Text
+.text--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur - Bas > Content > Bas > Icon
+.icon-2--p6 {
+  &.outer-style {
+    justify-content: end;
+    align-self: flex-end;
+    padding: 30px;
+    z-index: 999;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs
+.valeurs-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 48px 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text
+.misc--p6 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text
+.buttons--p6 {
+  &.outer-style {
+    padding: 0 0 4px 0;
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > text 1
+.icons-can-be-used-inside--p6 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors
+.sample-colors-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut
+.conteneur-haut-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut > Reverse color 2
+.reverse-color-2-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Conteneur haut > Code preview 2
+.code-preview-2-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Code Preview
+.code-preview-4--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne
+.premiere-ligne--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne
+.premere-ligne--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-evenly;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 1
+.k-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #2254D1FF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 1 > text
+.accept--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 1 > Icon
+.icon-3--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 2
+.k-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #CF3E3EFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 2 > text
+.decline--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 2 > Icon
+.icon-4--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 3
+.k-3--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1B1B1EFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 3 > Icon
+.icon-5--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Premère ligne > 3 > text
+.cancel--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne
+.deuxieme-ligne--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-evenly;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne > 1
+.k-1-container--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #F99019FF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne > 1 > Icon
+.icon-6--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne > 1 > text
+.back--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne > Icon
+.icon-7--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #9436E8FF;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > Deuxième ligne > Icon
+.icon-8--p6 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1B2FAFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 10px 30px 10px 30px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > 3è ligne
+.k-3-e-ligne--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1.5em;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-evenly;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > 3è ligne > Icon
+.icon-9--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #00eaffff;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Valeurs > Sample Colors > Première ligne > 3è ligne > Icon
+.icon-10--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    color: #f14343ff;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font
+.font--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > text
+.font-awesome--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > text 1
+.font-awesome-is-also--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global
+.global--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Haut
+.haut--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Haut > Color
+.color-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Haut > Code
+.code--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Code Preview
+.code-preview-5--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas
+.bas-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Lock
+.lock--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Look
+.look--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Bars
+.bars--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Edit
+.edit--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Refresh
+.refresh--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 996;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Font > Global > Bas > Circle
+.circle--p6 {
+  &.outer-style {
+    transition: transform 1s ease;
+    padding: 10px;
+    z-index: 995;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material
+.material--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > text
+.material-design--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > text 1
+.material-design-is--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global
+.global-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Haut
+.haut-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Haut > Color
+.color-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Haut > Code
+.code-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Code Preview
+.code-preview-6--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas
+.bas-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container
+.container-3--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-4--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-5--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1E8174FF;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-icon--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container
+.container-6--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-7--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-8--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1E8174FF;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container
+.container-9--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-10--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-3--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-3--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-3--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-11--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1E8174FF;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-4--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-4--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-4--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container
+.container-12--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-13--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-5--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-5--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-5--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container
+.container-14--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1E8174FF;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Home
+.home-6--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Calendar
+.calendar-6--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > Material > Global > Bas > Container > Container > Info
+.info-6--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI
+.mdi--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > MDI SVG
+.mdi-svg--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Text
+.text-1--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global
+.global-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Haut
+.haut-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Haut > Color
+.color-2--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Haut > Code
+.code-1--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Code Preview
+.code-preview-7--p6 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas
+.bas-2--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: center;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > People
+.people--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > Pencil
+.pencil--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > Share
+.share--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > Bouton
+.bouton--p6 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    color: #ffffffff;
+    background-color: #1C3D8DFF;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1.5em;
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > Bouton > Trash
+.trash--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    text-align: center;
+  }
+}
+// Icon > Page > Sous page > Exemple > Proprietes > MDI > Global > Bas > Bouton > text
+.delete--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Accessibility
+.accessibility--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Accessibility > Accessibility
+.accessibility-h-2--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Accessibility > text
+.icons-can-convey-all--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Accessibility > h3
+.decorative-font-icons--p6 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Accessibility > text 1
+.if-your-icons-are-purely--p6 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Accessibility > h3
+.semantic-font-icons--p6 {
+  &.outer-style {
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Accessibility > text
+.if-your-icons-have--p6 {
+  &.outer-style {
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Accessibility > h3
+.decorative-svg-icons--p6 {
+  &.outer-style {
+    z-index: 994;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Accessibility > text
+.if-your-icons-are-purely-text--p6 {
+  &.outer-style {
+    z-index: 993;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Accessibility > h3
+.semantic-svg-icons--p6 {
+  &.outer-style {
+    z-index: 992;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Accessibility > text
+.apply-accessibility--p6 {
+  &.outer-style {
+    z-index: 991;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Ready
+.ready--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Page > Sous page > Ready > Accessibility
+.accessibility-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Icon > Page > Sous page > Ready > text
+.continue-your-learning--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global
+.global-2--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-between;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Gauche
+.gauche--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Gauche > Edit
+.edit-icon--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ff2d2dff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Gauche > Droite
+.droite--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Gauche > Droite > text
+.icon-fonts--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Gauche > Droite > text
+.features--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Milieu
+.milieu--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Milieu > Colonne
+.colonne--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #036fffff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Milieu > Droite
+.droite-container--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Milieu > Droite > text
+.buttons-text--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Milieu > Droite > text
+.components--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Droite
+.droite-1--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Droite > Button
+.button--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #074fa9ff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Droite > Droite@
+.droite-2--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.cards--p6 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.components-text--p6 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Icon > Right Panel
+.right-panel--p6 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Icon > Right Panel > Sous Nav
+.sous-nav--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container
+.container-15--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container > text
+.contenu--p6 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1
+.container-16--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > titre
+.titre-2--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-2--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > titre
+.titre-3--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-3--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > titre
+.titre-4--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-4--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p6 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p6 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p6 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Icon > Icon
+.icon-11--p6 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

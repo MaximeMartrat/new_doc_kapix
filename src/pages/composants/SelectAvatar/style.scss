@@ -1,0 +1,869 @@
+// Select Avatar
+.select-avatar--p18 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 981;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Select Avatar > Main
+.main--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Select Avatar > Main > Title
+.title--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Main > Title > text
+.select-avatar-avatar--p18 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Basic
+.basic--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Main > Basic > text
+.simple-usage--p18 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Basic > text 1
+.just-set-a-value-for--p18 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Basic > Simple Usage
+.simple-usage-container--p18 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Select Avatar > Main > Basic > Simple Usage > Sélection d'avatar
+.selection-davatar--p18 {
+  &.outer-style {
+    height: 445px;
+    width: 100%;
+    min-height: 445px;
+    min-width: 0;
+    padding: 5px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 445px;
+  }
+}
+// Select Avatar > Main > Basic > Simple Usage > Container
+.container--p18 {
+  &.outer-style {
+    width: 40%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Select Avatar > Main > Basic > Simple Usage > Container > Show Random button
+.show-random-button--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 1000;
+  }
+  &.label-style {
+    font-weight: bold;
+  }
+}
+// Select Avatar > Main > Basic > Simple Usage > Container > Show Copy Paste
+.show-copy-paste--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.label-style {
+    font-weight: bold;
+  }
+}
+// Select Avatar > Main > Basic > Code Preview
+.code-preview--p18 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Select Avatar > Main > Basic > text
+.api-il-manque-des--p18 {
+  &.outer-style {
+    height: 119px;
+    min-height: 119px;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 119px;
+  }
+}
+// Select Avatar > Main > Auto Grow
+.auto-grow--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Main > Auto Grow > text
+.exemple--p18 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Auto Grow > text
+.usage--p18 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Auto Grow > text
+.linked-display-avatar--p18 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Auto Grow > text 1
+.you-can-use-v-bind--p18 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Auto Grow > Select Avatar + Display
+.select-avatar-display--p18 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Select Avatar > Main > Auto Grow > Select Avatar + Display > Select avatar + display
+.select-avatar-display-get-avatar--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 996;
+  }
+}
+// Select Avatar > Main > Auto Grow > Select Avatar + Display > Avatar
+.avatar--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+}
+// Select Avatar > Main > Auto Grow > Code Preview
+.code-preview-1--p18 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Select Avatar > Main > Colors
+.colors--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Main > Colors > text
+.colors-and-sizing--p18 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Colors > text 1
+.you-can-fix-the-qr--p18 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Colors > Container
+.container-1--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Select Avatar > Main > Colors > Container > Qr Code
+.qr-code--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 100%;
+    min-height: 200px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Colors > Container > Qr Code
+.qr-code-1--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 100%;
+    min-height: 200px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Colors > Code Preview
+.code-preview-2--p18 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Select Avatar > Main > Autocomplete
+.autocomplete--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Main > Autocomplete > text
+.error-correction-level--p18 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Autocomplete > text 1
+.you-can-use-v-bind-text--p18 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Select Avatar > Main > Autocomplete > Container
+.container-2--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Select Avatar > Main > Autocomplete > Container > Qr Code
+.qr-code-2--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 276.5px;
+    min-height: 200px;
+    min-width: 276.5px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 276.5px;
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Autocomplete > Container > Qr Code
+.qr-code-3--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 240.815px;
+    min-height: 200px;
+    min-width: 240.815px;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 240.815px;
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Autocomplete > Container > Qr Code
+.qr-code-4--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 287px;
+    min-height: 200px;
+    min-width: 287px;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 287px;
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Autocomplete > Container > Qr Code
+.qr-code-5--p18 {
+  &.outer-style {
+    height: 200px;
+    width: 262px;
+    min-height: 200px;
+    min-width: 262px;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 262px;
+    max-height: 200px;
+  }
+}
+// Select Avatar > Main > Autocomplete > Code Preview
+.code-preview-3--p18 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Select Avatar > Right Panel
+.right-panel--p18 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 998;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Select Avatar > Right Panel > Sous Nav
+.sous-nav--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container
+.container-3--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container > text
+.contenu--p18 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1
+.container-1-container--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > titre
+.titre--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > titre
+.titre-text--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-text--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > titre
+.titre-1--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-1--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p18 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p18 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p18 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Select Avatar > Icon
+.icon--p18 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

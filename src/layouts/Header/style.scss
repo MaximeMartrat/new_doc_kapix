@@ -1,0 +1,123 @@
+// Header
+.header--m2 {
+  &.outer-style {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow: hidden;
+  }
+}
+// Header > Header
+.header-container--m2 {
+  &.outer-style {
+    background-color: #ffffffff;
+    height: 70px;
+    width: 100%;
+    min-height: 70px;
+    min-width: 0;
+    padding: 0 25px 0 25px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    color: #000000ff;
+    padding: 5px 5px 5px 5px;
+  }
+  &.template-style {
+    max-height: 70px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow: hidden;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Header > Header > text
+.documentation--m2 {
+  &.outer-style {
+    position: absolute;
+    z-index: 1001;
+    inset: 41.225px auto auto 22.35px;
+  }
+  &.property-style {
+    overflow: hidden;
+  }
+}
+// Header > Header > Image
+.image--m2 {
+  &.outer-style {
+    height: 100%;
+    width: 150px;
+    min-height: 0;
+    min-width: 150px;
+    align-self: stretch;
+    padding: 0 10px 0 10px;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-width: 150px;
+  }
+}
+// Header > Header > Choix simple
+.choix-simple--m2 {
+  &.outer-style {
+    padding: 5px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Header > Header > Button
+.search--m2 {
+  &.outer-style {
+    padding: 10px 10px 10px 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}
+// Header > Page router
+.page-router--m2 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+}

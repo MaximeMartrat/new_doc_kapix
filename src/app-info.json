@@ -1,0 +1,979 @@
+{
+  "hostname": "https://localhost",
+  "defaultLanguage": "fr-FR",
+  "fallbackLanguage": "en-US",
+  "supportedLanguages": [
+    "fr-FR",
+    "en-US",
+    "en-AU",
+    "ar-DZ",
+    "de-DE",
+    "es-PE",
+    "ja-JP"
+  ],
+  "fontFamilies": [
+    {
+      "name": "Roboto",
+      "defer": true
+    }
+  ],
+  "pwa": {
+    "name": "Kapix Components Preview",
+    "shortName": "Kapix Components Preview",
+    "startUrl": "./",
+    "themeColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "image": "https://ucarecdn.com/4d8b7fed-410e-4bc3-8f44-fbb2067a9b5c/",
+    "newVersionMode": "show-toast",
+    "includeAssets": [
+      "favicon.png",
+      "robots.txt",
+      "safari-pinned-tab.svg"
+    ],
+    "icons": [
+      {
+        "src": "pwa-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "pwa-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "pwa-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+  },
+  "website": {
+    "name": "Kapix Components Preview",
+    "description": "Kapix Starter Template",
+    "image": "https://ucarecdn.com/4d8b7fed-410e-4bc3-8f44-fbb2067a9b5c/"
+  },
+  "twitter": {
+    "image": "https://ucarecdn.com/027a140f-8bca-427a-8082-6be27b956164/",
+    "twitterCard": "summary",
+    "twitterSite": "@KapixNoCode",
+    "twitterCreator": "@KapixNoCode"
+  },
+  "author": {
+    "name": "Kapix",
+    "image": "https://www.kapix.fr/"
+  },
+  "organization": {
+    "name": "Kapix",
+    "logo": "https://ucarecdn.com/a3587569-0c73-4855-84cb-c1ed9a0facda/-/preview/-/quality/smart/",
+    "url": "https://www.kapix.fr/"
+  },
+  "breadcrumb": {
+    "itemListElement": [
+      {
+        "name": "Home",
+        "item": "/"
+      },
+      {
+        "name": "Home fr-FR",
+        "item": "/fr-FR"
+      },
+      {
+        "name": "Home en-US",
+        "item": "/en-US"
+      },
+      {
+        "name": "Home en-AU",
+        "item": "/en-AU"
+      },
+      {
+        "name": "Home ar-DZ",
+        "item": "/ar-DZ"
+      },
+      {
+        "name": "Home de-DE",
+        "item": "/de-DE"
+      },
+      {
+        "name": "Home es-PE",
+        "item": "/es-PE"
+      },
+      {
+        "name": "Home ja-JP",
+        "item": "/ja-JP"
+      },
+      {
+        "name": "Zone de texte",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte"
+      },
+      {
+        "name": "Zone de texte fr-FR",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/fr-FR"
+      },
+      {
+        "name": "Zone de texte en-US",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/en-US"
+      },
+      {
+        "name": "Zone de texte en-AU",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/en-AU"
+      },
+      {
+        "name": "Zone de texte ar-DZ",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/ar-DZ"
+      },
+      {
+        "name": "Zone de texte de-DE",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/de-DE"
+      },
+      {
+        "name": "Zone de texte es-PE",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/es-PE"
+      },
+      {
+        "name": "Zone de texte ja-JP",
+        "item": "/Header/WithLeftSidebar/ZoneDeTexte/ja-JP"
+      },
+      {
+        "name": "Button",
+        "item": "/Header/WithLeftSidebar/Button"
+      },
+      {
+        "name": "Button fr-FR",
+        "item": "/Header/WithLeftSidebar/Button/fr-FR"
+      },
+      {
+        "name": "Button en-US",
+        "item": "/Header/WithLeftSidebar/Button/en-US"
+      },
+      {
+        "name": "Button en-AU",
+        "item": "/Header/WithLeftSidebar/Button/en-AU"
+      },
+      {
+        "name": "Button ar-DZ",
+        "item": "/Header/WithLeftSidebar/Button/ar-DZ"
+      },
+      {
+        "name": "Button de-DE",
+        "item": "/Header/WithLeftSidebar/Button/de-DE"
+      },
+      {
+        "name": "Button es-PE",
+        "item": "/Header/WithLeftSidebar/Button/es-PE"
+      },
+      {
+        "name": "Button ja-JP",
+        "item": "/Header/WithLeftSidebar/Button/ja-JP"
+      },
+      {
+        "name": "Icon",
+        "item": "/Header/WithLeftSidebar/Icon"
+      },
+      {
+        "name": "Icon fr-FR",
+        "item": "/Header/WithLeftSidebar/Icon/fr-FR"
+      },
+      {
+        "name": "Icon en-US",
+        "item": "/Header/WithLeftSidebar/Icon/en-US"
+      },
+      {
+        "name": "Icon en-AU",
+        "item": "/Header/WithLeftSidebar/Icon/en-AU"
+      },
+      {
+        "name": "Icon ar-DZ",
+        "item": "/Header/WithLeftSidebar/Icon/ar-DZ"
+      },
+      {
+        "name": "Icon de-DE",
+        "item": "/Header/WithLeftSidebar/Icon/de-DE"
+      },
+      {
+        "name": "Icon es-PE",
+        "item": "/Header/WithLeftSidebar/Icon/es-PE"
+      },
+      {
+        "name": "Icon ja-JP",
+        "item": "/Header/WithLeftSidebar/Icon/ja-JP"
+      },
+      {
+        "name": "ToggleButtons",
+        "item": "/Header/WithLeftSidebar/ToggleButtons"
+      },
+      {
+        "name": "ToggleButtons fr-FR",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/fr-FR"
+      },
+      {
+        "name": "ToggleButtons en-US",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/en-US"
+      },
+      {
+        "name": "ToggleButtons en-AU",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/en-AU"
+      },
+      {
+        "name": "ToggleButtons ar-DZ",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/ar-DZ"
+      },
+      {
+        "name": "ToggleButtons de-DE",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/de-DE"
+      },
+      {
+        "name": "ToggleButtons es-PE",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/es-PE"
+      },
+      {
+        "name": "ToggleButtons ja-JP",
+        "item": "/Header/WithLeftSidebar/ToggleButtons/ja-JP"
+      },
+      {
+        "name": "Date pickers",
+        "item": "/Header/WithLeftSidebar/DatePickers"
+      },
+      {
+        "name": "Date pickers fr-FR",
+        "item": "/Header/WithLeftSidebar/DatePickers/fr-FR"
+      },
+      {
+        "name": "Date pickers en-US",
+        "item": "/Header/WithLeftSidebar/DatePickers/en-US"
+      },
+      {
+        "name": "Date pickers en-AU",
+        "item": "/Header/WithLeftSidebar/DatePickers/en-AU"
+      },
+      {
+        "name": "Date pickers ar-DZ",
+        "item": "/Header/WithLeftSidebar/DatePickers/ar-DZ"
+      },
+      {
+        "name": "Date pickers de-DE",
+        "item": "/Header/WithLeftSidebar/DatePickers/de-DE"
+      },
+      {
+        "name": "Date pickers es-PE",
+        "item": "/Header/WithLeftSidebar/DatePickers/es-PE"
+      },
+      {
+        "name": "Date pickers ja-JP",
+        "item": "/Header/WithLeftSidebar/DatePickers/ja-JP"
+      },
+      {
+        "name": "Date Time pickers",
+        "item": "/Header/WithLeftSidebar/DateTimePickers"
+      },
+      {
+        "name": "Date Time pickers fr-FR",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/fr-FR"
+      },
+      {
+        "name": "Date Time pickers en-US",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/en-US"
+      },
+      {
+        "name": "Date Time pickers en-AU",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/en-AU"
+      },
+      {
+        "name": "Date Time pickers ar-DZ",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/ar-DZ"
+      },
+      {
+        "name": "Date Time pickers de-DE",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/de-DE"
+      },
+      {
+        "name": "Date Time pickers es-PE",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/es-PE"
+      },
+      {
+        "name": "Date Time pickers ja-JP",
+        "item": "/Header/WithLeftSidebar/DateTimePickers/ja-JP"
+      },
+      {
+        "name": "Ratings",
+        "item": "/Header/WithLeftSidebar/Ratings"
+      },
+      {
+        "name": "Ratings fr-FR",
+        "item": "/Header/WithLeftSidebar/Ratings/fr-FR"
+      },
+      {
+        "name": "Ratings en-US",
+        "item": "/Header/WithLeftSidebar/Ratings/en-US"
+      },
+      {
+        "name": "Ratings en-AU",
+        "item": "/Header/WithLeftSidebar/Ratings/en-AU"
+      },
+      {
+        "name": "Ratings ar-DZ",
+        "item": "/Header/WithLeftSidebar/Ratings/ar-DZ"
+      },
+      {
+        "name": "Ratings de-DE",
+        "item": "/Header/WithLeftSidebar/Ratings/de-DE"
+      },
+      {
+        "name": "Ratings es-PE",
+        "item": "/Header/WithLeftSidebar/Ratings/es-PE"
+      },
+      {
+        "name": "Ratings ja-JP",
+        "item": "/Header/WithLeftSidebar/Ratings/ja-JP"
+      },
+      {
+        "name": "Image",
+        "item": "/Header/WithLeftSidebar/Image"
+      },
+      {
+        "name": "Image fr-FR",
+        "item": "/Header/WithLeftSidebar/Image/fr-FR"
+      },
+      {
+        "name": "Image en-US",
+        "item": "/Header/WithLeftSidebar/Image/en-US"
+      },
+      {
+        "name": "Image en-AU",
+        "item": "/Header/WithLeftSidebar/Image/en-AU"
+      },
+      {
+        "name": "Image ar-DZ",
+        "item": "/Header/WithLeftSidebar/Image/ar-DZ"
+      },
+      {
+        "name": "Image de-DE",
+        "item": "/Header/WithLeftSidebar/Image/de-DE"
+      },
+      {
+        "name": "Image es-PE",
+        "item": "/Header/WithLeftSidebar/Image/es-PE"
+      },
+      {
+        "name": "Image ja-JP",
+        "item": "/Header/WithLeftSidebar/Image/ja-JP"
+      },
+      {
+        "name": "Map",
+        "item": "/Header/WithLeftSidebar/Map"
+      },
+      {
+        "name": "Map fr-FR",
+        "item": "/Header/WithLeftSidebar/Map/fr-FR"
+      },
+      {
+        "name": "Map en-US",
+        "item": "/Header/WithLeftSidebar/Map/en-US"
+      },
+      {
+        "name": "Map en-AU",
+        "item": "/Header/WithLeftSidebar/Map/en-AU"
+      },
+      {
+        "name": "Map ar-DZ",
+        "item": "/Header/WithLeftSidebar/Map/ar-DZ"
+      },
+      {
+        "name": "Map de-DE",
+        "item": "/Header/WithLeftSidebar/Map/de-DE"
+      },
+      {
+        "name": "Map es-PE",
+        "item": "/Header/WithLeftSidebar/Map/es-PE"
+      },
+      {
+        "name": "Map ja-JP",
+        "item": "/Header/WithLeftSidebar/Map/ja-JP"
+      },
+      {
+        "name": "GradientColorPicker",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker"
+      },
+      {
+        "name": "GradientColorPicker fr-FR",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/fr-FR"
+      },
+      {
+        "name": "GradientColorPicker en-US",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/en-US"
+      },
+      {
+        "name": "GradientColorPicker en-AU",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/en-AU"
+      },
+      {
+        "name": "GradientColorPicker ar-DZ",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/ar-DZ"
+      },
+      {
+        "name": "GradientColorPicker de-DE",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/de-DE"
+      },
+      {
+        "name": "GradientColorPicker es-PE",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/es-PE"
+      },
+      {
+        "name": "GradientColorPicker ja-JP",
+        "item": "/Header/WithLeftSidebar/GradientColorPicker/ja-JP"
+      },
+      {
+        "name": "Social Networks",
+        "item": "/Header/WithLeftSidebar/SocialNetworks"
+      },
+      {
+        "name": "Social Networks fr-FR",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/fr-FR"
+      },
+      {
+        "name": "Social Networks en-US",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/en-US"
+      },
+      {
+        "name": "Social Networks en-AU",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/en-AU"
+      },
+      {
+        "name": "Social Networks ar-DZ",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/ar-DZ"
+      },
+      {
+        "name": "Social Networks de-DE",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/de-DE"
+      },
+      {
+        "name": "Social Networks es-PE",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/es-PE"
+      },
+      {
+        "name": "Social Networks ja-JP",
+        "item": "/Header/WithLeftSidebar/SocialNetworks/ja-JP"
+      },
+      {
+        "name": "QR Code",
+        "item": "/Header/WithLeftSidebar/QrCode"
+      },
+      {
+        "name": "QR Code fr-FR",
+        "item": "/Header/WithLeftSidebar/QrCode/fr-FR"
+      },
+      {
+        "name": "QR Code en-US",
+        "item": "/Header/WithLeftSidebar/QrCode/en-US"
+      },
+      {
+        "name": "QR Code en-AU",
+        "item": "/Header/WithLeftSidebar/QrCode/en-AU"
+      },
+      {
+        "name": "QR Code ar-DZ",
+        "item": "/Header/WithLeftSidebar/QrCode/ar-DZ"
+      },
+      {
+        "name": "QR Code de-DE",
+        "item": "/Header/WithLeftSidebar/QrCode/de-DE"
+      },
+      {
+        "name": "QR Code es-PE",
+        "item": "/Header/WithLeftSidebar/QrCode/es-PE"
+      },
+      {
+        "name": "QR Code ja-JP",
+        "item": "/Header/WithLeftSidebar/QrCode/ja-JP"
+      },
+      {
+        "name": "Afficheur de page web",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb"
+      },
+      {
+        "name": "Afficheur de page web fr-FR",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/fr-FR"
+      },
+      {
+        "name": "Afficheur de page web en-US",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/en-US"
+      },
+      {
+        "name": "Afficheur de page web en-AU",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/en-AU"
+      },
+      {
+        "name": "Afficheur de page web ar-DZ",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/ar-DZ"
+      },
+      {
+        "name": "Afficheur de page web de-DE",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/de-DE"
+      },
+      {
+        "name": "Afficheur de page web es-PE",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/es-PE"
+      },
+      {
+        "name": "Afficheur de page web ja-JP",
+        "item": "/Header/WithLeftSidebar/AfficheurDePageWeb/ja-JP"
+      },
+      {
+        "name": "Texte Anime",
+        "item": "/Header/WithLeftSidebar/TexteAnime"
+      },
+      {
+        "name": "Texte Anime fr-FR",
+        "item": "/Header/WithLeftSidebar/TexteAnime/fr-FR"
+      },
+      {
+        "name": "Texte Anime en-US",
+        "item": "/Header/WithLeftSidebar/TexteAnime/en-US"
+      },
+      {
+        "name": "Texte Anime en-AU",
+        "item": "/Header/WithLeftSidebar/TexteAnime/en-AU"
+      },
+      {
+        "name": "Texte Anime ar-DZ",
+        "item": "/Header/WithLeftSidebar/TexteAnime/ar-DZ"
+      },
+      {
+        "name": "Texte Anime de-DE",
+        "item": "/Header/WithLeftSidebar/TexteAnime/de-DE"
+      },
+      {
+        "name": "Texte Anime es-PE",
+        "item": "/Header/WithLeftSidebar/TexteAnime/es-PE"
+      },
+      {
+        "name": "Texte Anime ja-JP",
+        "item": "/Header/WithLeftSidebar/TexteAnime/ja-JP"
+      },
+      {
+        "name": "Select Avatar",
+        "item": "/Header/WithLeftSidebar/SelectAvatar"
+      },
+      {
+        "name": "Select Avatar fr-FR",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/fr-FR"
+      },
+      {
+        "name": "Select Avatar en-US",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/en-US"
+      },
+      {
+        "name": "Select Avatar en-AU",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/en-AU"
+      },
+      {
+        "name": "Select Avatar ar-DZ",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/ar-DZ"
+      },
+      {
+        "name": "Select Avatar de-DE",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/de-DE"
+      },
+      {
+        "name": "Select Avatar es-PE",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/es-PE"
+      },
+      {
+        "name": "Select Avatar ja-JP",
+        "item": "/Header/WithLeftSidebar/SelectAvatar/ja-JP"
+      },
+      {
+        "name": "Link",
+        "item": "/Header/WithLeftSidebar/Link"
+      },
+      {
+        "name": "Link fr-FR",
+        "item": "/Header/WithLeftSidebar/Link/fr-FR"
+      },
+      {
+        "name": "Link en-US",
+        "item": "/Header/WithLeftSidebar/Link/en-US"
+      },
+      {
+        "name": "Link en-AU",
+        "item": "/Header/WithLeftSidebar/Link/en-AU"
+      },
+      {
+        "name": "Link ar-DZ",
+        "item": "/Header/WithLeftSidebar/Link/ar-DZ"
+      },
+      {
+        "name": "Link de-DE",
+        "item": "/Header/WithLeftSidebar/Link/de-DE"
+      },
+      {
+        "name": "Link es-PE",
+        "item": "/Header/WithLeftSidebar/Link/es-PE"
+      },
+      {
+        "name": "Link ja-JP",
+        "item": "/Header/WithLeftSidebar/Link/ja-JP"
+      },
+      {
+        "name": "Text Field",
+        "item": "/Header/WithLeftSidebar/TextField"
+      },
+      {
+        "name": "Text Field fr-FR",
+        "item": "/Header/WithLeftSidebar/TextField/fr-FR"
+      },
+      {
+        "name": "Text Field en-US",
+        "item": "/Header/WithLeftSidebar/TextField/en-US"
+      },
+      {
+        "name": "Text Field en-AU",
+        "item": "/Header/WithLeftSidebar/TextField/en-AU"
+      },
+      {
+        "name": "Text Field ar-DZ",
+        "item": "/Header/WithLeftSidebar/TextField/ar-DZ"
+      },
+      {
+        "name": "Text Field de-DE",
+        "item": "/Header/WithLeftSidebar/TextField/de-DE"
+      },
+      {
+        "name": "Text Field es-PE",
+        "item": "/Header/WithLeftSidebar/TextField/es-PE"
+      },
+      {
+        "name": "Text Field ja-JP",
+        "item": "/Header/WithLeftSidebar/TextField/ja-JP"
+      },
+      {
+        "name": "Texte",
+        "item": "/Header/WithLeftSidebar/Texte"
+      },
+      {
+        "name": "Texte fr-FR",
+        "item": "/Header/WithLeftSidebar/Texte/fr-FR"
+      },
+      {
+        "name": "Texte en-US",
+        "item": "/Header/WithLeftSidebar/Texte/en-US"
+      },
+      {
+        "name": "Texte en-AU",
+        "item": "/Header/WithLeftSidebar/Texte/en-AU"
+      },
+      {
+        "name": "Texte ar-DZ",
+        "item": "/Header/WithLeftSidebar/Texte/ar-DZ"
+      },
+      {
+        "name": "Texte de-DE",
+        "item": "/Header/WithLeftSidebar/Texte/de-DE"
+      },
+      {
+        "name": "Texte es-PE",
+        "item": "/Header/WithLeftSidebar/Texte/es-PE"
+      },
+      {
+        "name": "Texte ja-JP",
+        "item": "/Header/WithLeftSidebar/Texte/ja-JP"
+      },
+      {
+        "name": "Autocompletes",
+        "item": "/Header/WithLeftSidebar/Autocompletes"
+      },
+      {
+        "name": "Autocompletes fr-FR",
+        "item": "/Header/WithLeftSidebar/Autocompletes/fr-FR"
+      },
+      {
+        "name": "Autocompletes en-US",
+        "item": "/Header/WithLeftSidebar/Autocompletes/en-US"
+      },
+      {
+        "name": "Autocompletes en-AU",
+        "item": "/Header/WithLeftSidebar/Autocompletes/en-AU"
+      },
+      {
+        "name": "Autocompletes ar-DZ",
+        "item": "/Header/WithLeftSidebar/Autocompletes/ar-DZ"
+      },
+      {
+        "name": "Autocompletes de-DE",
+        "item": "/Header/WithLeftSidebar/Autocompletes/de-DE"
+      },
+      {
+        "name": "Autocompletes es-PE",
+        "item": "/Header/WithLeftSidebar/Autocompletes/es-PE"
+      },
+      {
+        "name": "Autocompletes ja-JP",
+        "item": "/Header/WithLeftSidebar/Autocompletes/ja-JP"
+      },
+      {
+        "name": "ColorPickers",
+        "item": "/Header/WithLeftSidebar/ColorPickers"
+      },
+      {
+        "name": "ColorPickers fr-FR",
+        "item": "/Header/WithLeftSidebar/ColorPickers/fr-FR"
+      },
+      {
+        "name": "ColorPickers en-US",
+        "item": "/Header/WithLeftSidebar/ColorPickers/en-US"
+      },
+      {
+        "name": "ColorPickers en-AU",
+        "item": "/Header/WithLeftSidebar/ColorPickers/en-AU"
+      },
+      {
+        "name": "ColorPickers ar-DZ",
+        "item": "/Header/WithLeftSidebar/ColorPickers/ar-DZ"
+      },
+      {
+        "name": "ColorPickers de-DE",
+        "item": "/Header/WithLeftSidebar/ColorPickers/de-DE"
+      },
+      {
+        "name": "ColorPickers es-PE",
+        "item": "/Header/WithLeftSidebar/ColorPickers/es-PE"
+      },
+      {
+        "name": "ColorPickers ja-JP",
+        "item": "/Header/WithLeftSidebar/ColorPickers/ja-JP"
+      },
+      {
+        "name": "Select Input",
+        "item": "/Header/WithLeftSidebar/SelectInput"
+      },
+      {
+        "name": "Select Input fr-FR",
+        "item": "/Header/WithLeftSidebar/SelectInput/fr-FR"
+      },
+      {
+        "name": "Select Input en-US",
+        "item": "/Header/WithLeftSidebar/SelectInput/en-US"
+      },
+      {
+        "name": "Select Input en-AU",
+        "item": "/Header/WithLeftSidebar/SelectInput/en-AU"
+      },
+      {
+        "name": "Select Input ar-DZ",
+        "item": "/Header/WithLeftSidebar/SelectInput/ar-DZ"
+      },
+      {
+        "name": "Select Input de-DE",
+        "item": "/Header/WithLeftSidebar/SelectInput/de-DE"
+      },
+      {
+        "name": "Select Input es-PE",
+        "item": "/Header/WithLeftSidebar/SelectInput/es-PE"
+      },
+      {
+        "name": "Select Input ja-JP",
+        "item": "/Header/WithLeftSidebar/SelectInput/ja-JP"
+      },
+      {
+        "name": "Password",
+        "item": "/Header/WithLeftSidebar/Password"
+      },
+      {
+        "name": "Password fr-FR",
+        "item": "/Header/WithLeftSidebar/Password/fr-FR"
+      },
+      {
+        "name": "Password en-US",
+        "item": "/Header/WithLeftSidebar/Password/en-US"
+      },
+      {
+        "name": "Password en-AU",
+        "item": "/Header/WithLeftSidebar/Password/en-AU"
+      },
+      {
+        "name": "Password ar-DZ",
+        "item": "/Header/WithLeftSidebar/Password/ar-DZ"
+      },
+      {
+        "name": "Password de-DE",
+        "item": "/Header/WithLeftSidebar/Password/de-DE"
+      },
+      {
+        "name": "Password es-PE",
+        "item": "/Header/WithLeftSidebar/Password/es-PE"
+      },
+      {
+        "name": "Password ja-JP",
+        "item": "/Header/WithLeftSidebar/Password/ja-JP"
+      },
+      {
+        "name": "Number input",
+        "item": "/Header/WithLeftSidebar/NumberInput"
+      },
+      {
+        "name": "Number input fr-FR",
+        "item": "/Header/WithLeftSidebar/NumberInput/fr-FR"
+      },
+      {
+        "name": "Number input en-US",
+        "item": "/Header/WithLeftSidebar/NumberInput/en-US"
+      },
+      {
+        "name": "Number input en-AU",
+        "item": "/Header/WithLeftSidebar/NumberInput/en-AU"
+      },
+      {
+        "name": "Number input ar-DZ",
+        "item": "/Header/WithLeftSidebar/NumberInput/ar-DZ"
+      },
+      {
+        "name": "Number input de-DE",
+        "item": "/Header/WithLeftSidebar/NumberInput/de-DE"
+      },
+      {
+        "name": "Number input es-PE",
+        "item": "/Header/WithLeftSidebar/NumberInput/es-PE"
+      },
+      {
+        "name": "Number input ja-JP",
+        "item": "/Header/WithLeftSidebar/NumberInput/ja-JP"
+      },
+      {
+        "name": "Radio button",
+        "item": "/Header/WithLeftSidebar/RadioButton"
+      },
+      {
+        "name": "Radio button fr-FR",
+        "item": "/Header/WithLeftSidebar/RadioButton/fr-FR"
+      },
+      {
+        "name": "Radio button en-US",
+        "item": "/Header/WithLeftSidebar/RadioButton/en-US"
+      },
+      {
+        "name": "Radio button en-AU",
+        "item": "/Header/WithLeftSidebar/RadioButton/en-AU"
+      },
+      {
+        "name": "Radio button ar-DZ",
+        "item": "/Header/WithLeftSidebar/RadioButton/ar-DZ"
+      },
+      {
+        "name": "Radio button de-DE",
+        "item": "/Header/WithLeftSidebar/RadioButton/de-DE"
+      },
+      {
+        "name": "Radio button es-PE",
+        "item": "/Header/WithLeftSidebar/RadioButton/es-PE"
+      },
+      {
+        "name": "Radio button ja-JP",
+        "item": "/Header/WithLeftSidebar/RadioButton/ja-JP"
+      },
+      {
+        "name": "Selects",
+        "item": "/Header/WithLeftSidebar/Selects"
+      },
+      {
+        "name": "Selects fr-FR",
+        "item": "/Header/WithLeftSidebar/Selects/fr-FR"
+      },
+      {
+        "name": "Selects en-US",
+        "item": "/Header/WithLeftSidebar/Selects/en-US"
+      },
+      {
+        "name": "Selects en-AU",
+        "item": "/Header/WithLeftSidebar/Selects/en-AU"
+      },
+      {
+        "name": "Selects ar-DZ",
+        "item": "/Header/WithLeftSidebar/Selects/ar-DZ"
+      },
+      {
+        "name": "Selects de-DE",
+        "item": "/Header/WithLeftSidebar/Selects/de-DE"
+      },
+      {
+        "name": "Selects es-PE",
+        "item": "/Header/WithLeftSidebar/Selects/es-PE"
+      },
+      {
+        "name": "Selects ja-JP",
+        "item": "/Header/WithLeftSidebar/Selects/ja-JP"
+      },
+      {
+        "name": "Colors",
+        "item": "/Header/WithLeftSidebar/Colors"
+      },
+      {
+        "name": "Colors fr-FR",
+        "item": "/Header/WithLeftSidebar/Colors/fr-FR"
+      },
+      {
+        "name": "Colors en-US",
+        "item": "/Header/WithLeftSidebar/Colors/en-US"
+      },
+      {
+        "name": "Colors en-AU",
+        "item": "/Header/WithLeftSidebar/Colors/en-AU"
+      },
+      {
+        "name": "Colors ar-DZ",
+        "item": "/Header/WithLeftSidebar/Colors/ar-DZ"
+      },
+      {
+        "name": "Colors de-DE",
+        "item": "/Header/WithLeftSidebar/Colors/de-DE"
+      },
+      {
+        "name": "Colors es-PE",
+        "item": "/Header/WithLeftSidebar/Colors/es-PE"
+      },
+      {
+        "name": "Colors ja-JP",
+        "item": "/Header/WithLeftSidebar/Colors/ja-JP"
+      },
+      {
+        "name": "LanguageSelection",
+        "item": "/Header/WithLeftSidebar/LanguageSelection"
+      },
+      {
+        "name": "LanguageSelection fr-FR",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/fr-FR"
+      },
+      {
+        "name": "LanguageSelection en-US",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/en-US"
+      },
+      {
+        "name": "LanguageSelection en-AU",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/en-AU"
+      },
+      {
+        "name": "LanguageSelection ar-DZ",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/ar-DZ"
+      },
+      {
+        "name": "LanguageSelection de-DE",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/de-DE"
+      },
+      {
+        "name": "LanguageSelection es-PE",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/es-PE"
+      },
+      {
+        "name": "LanguageSelection ja-JP",
+        "item": "/Header/WithLeftSidebar/LanguageSelection/ja-JP"
+      }
+    ]
+  },
+  "localeBusiness": null
+}

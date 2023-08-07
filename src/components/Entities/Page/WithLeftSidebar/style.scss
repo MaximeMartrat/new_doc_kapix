@@ -1,0 +1,28 @@
+// Page
+.page--with-left-sidebar-e2 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px 10px 10px 10px;
+    z-index: 997;
+  }
+  &.property-style {
+    cursor: pointer;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Page > Title
+.title--with-left-sidebar-e2 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+  }
+}

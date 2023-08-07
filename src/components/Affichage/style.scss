@@ -1,0 +1,128 @@
+// Affichage
+.affichage--c3 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+  }
+  &.inner-style {
+    max-width: 1400px;
+  }
+  &.property-style {
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: center;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: column;
+    }
+  }
+}
+// Affichage > Description
+.description--c3 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: center;
+  }
+  @include media-breakpoint-down(xs) {
+    &.property-style {
+      text-align: center;
+    }
+  }
+}
+// Affichage > Description > Grand titre
+.grand-titre--c3 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+  }
+}
+// Affichage > Description > Sous-titre
+.sous-titre--c3 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    padding: 5px;
+  }
+}
+// Affichage > Description > Bouton
+.bouton--c3:not(#\ ) {
+  &.outer-style {
+    transition: transform 0.2s ease;
+    padding: 50px 5px 5px 5px;
+    z-index: 997;
+  }
+  &.property-style {
+    transition: box-shadow 0.2s ease;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      align-self: center;
+    }
+  }
+}
+// Affichage > Visuel
+.visuel--c3 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    max-width: 500px;
+    align-self: center;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: center;
+  }
+}
+// Affichage > Visuel > Image
+.image--c3 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    align-self: stretch;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}

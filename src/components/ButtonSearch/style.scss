@@ -1,0 +1,43 @@
+.open-search{
+  animation: 0.5s linear slidein;
+  animation-name: openSearch;
+}
+.close-search {
+  animation: 0.5s linear slideout;
+  animation-name: closeSearch;
+}
+
+@keyframes openSearch {
+   from {
+    transform: translateX(-100%);
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  50%{
+    height: 0%;
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    height: 100%;
+    opacity: 1;
+  }
+}
+@keyframes closeSearch {
+  from {
+    transform: translateX(0%);
+    height: 100%;
+    opacity: 1;
+  }
+  50% {
+    height: 0%;
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-100%);
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+}

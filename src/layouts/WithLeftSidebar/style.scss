@@ -1,0 +1,78 @@
+// With Left Sidebar
+.with-left-sidebar--m3 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow: hidden;
+  }
+}
+// With Left Sidebar > Left Panel
+.left-panel--m3 {
+  &.outer-style {
+    width: 300px;
+    min-width: 300px;
+    z-index: 1000;
+  }
+  &.property-style {
+    padding: 15px 0 5px 15px;
+  }
+  &.template-style {
+    max-width: 300px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// With Left Sidebar > Left Panel > Page List
+.page-list--m3 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}
+// With Left Sidebar > Page router
+.page-router--m3 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+}

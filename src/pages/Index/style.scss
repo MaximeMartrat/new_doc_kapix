@@ -1,0 +1,26 @@
+.img-accueil{
+  height: 250px !important;
+  width: 250px !important;
+  margin: auto;
+}
+.big-title{
+  text-align: center;
+  font-size: 50px;
+}
+.accueil-container{
+  height: 100vh;
+}
+.start-navigation-container{
+  display: flex;
+  justify-content: center;
+}
+.start-button button{
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+}
+.start-button button:hover{
+  border: 1px solid black;
+}

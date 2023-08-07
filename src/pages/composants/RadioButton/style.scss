@@ -1,0 +1,940 @@
+// Radio button
+.radio-button--p27 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    padding: 0 0 25px 0;
+    z-index: 972;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Radio button > Page
+.page--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Radio button > Page > Sous page
+.sous-page--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-family: Roboto;
+    padding: 32px 32px 32px 32px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > h1
+.radio-buttons--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Radio button > Page > Sous page > text
+.the-v-radio-component--p27 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > h2
+.usage--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+// Radio button > Page > Sous page > text 1
+.lthough-v-radio-can--p27 {
+  &.outer-style {
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > Container
+.container--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut
+.haut--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut > Icon
+.icon--p27 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut > Icon
+.icon-1--p27 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Radio button > Page > Sous page > Container > Code Preview
+.code-preview--p27 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Radio button > Page > Sous page > Container > Bas
+.bas--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 20px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    align-items: flex-start;
+  }
+}
+// Radio button > Page > Sous page > Container > Bas > Radio Buttons
+.radio-buttons-element--p27:not(#\ ) {
+  &.outer-style {
+    z-index: 1000;
+  }
+}
+// Radio button > Page > Sous page > h2
+.api--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+// Radio button > Page > Sous page > text 1
+.v-radio-v-radio-group--p27 {
+  &.outer-style {
+    z-index: 994;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > h2
+.examples--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 993;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+// Radio button > Page > Sous page > h2
+.slots--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 992;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+// Radio button > Page > Sous page > h3
+.label--p27 {
+  &.outer-style {
+    z-index: 991;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+}
+// Radio button > Page > Sous page > text 1
+.radio-group-labels--p27 {
+  &.outer-style {
+    z-index: 989;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > Container
+.container-1--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 989;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut
+.haut-container--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: end;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut > Icon
+.icon-2--p27 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Radio button > Page > Sous page > Container > Haut > Icon
+.icon-3--p27 {
+  &.outer-style {
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Radio button > Page > Sous page > Container > Code Preview
+.code-preview-1--p27 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Radio button > Page > Sous page > Container > Bas
+.bas-container--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.property-style {
+    padding: 20px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    align-items: flex-start;
+  }
+}
+// Radio button > Page > Sous page > Container > Bas > text
+.your-favourite-search--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > Container > Bas > Radio Buttons
+.radio-buttons-1--p27:not(#\ ) {
+  &.outer-style {
+    z-index: 999;
+  }
+}
+// Radio button > Page > Sous page > Ready
+.ready--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 988;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Radio button > Page > Sous page > Ready > Accessibility
+.accessibility--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+// Radio button > Page > Sous page > Ready > text
+.continue-your-learning--p27 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global
+.global--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-between;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Gauche
+.gauche--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 1000;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Gauche > Edit
+.edit--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #ff2d2dff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Gauche > Droite
+.droite--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Gauche > Droite > text
+.icon-fonts--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Gauche > Droite > text
+.features--p27 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Milieu
+.milieu--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 999;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Milieu > Colonne
+.colonne--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #036fffff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Milieu > Droite
+.droite-container--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Milieu > Droite > text
+.buttons--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Milieu > Droite > text
+.components--p27 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Droite
+.droite-1--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    z-index: 998;
+  }
+  &.property-style {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Droite > Button
+.button--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    color: #074fa9ff;
+    text-align: center;
+    padding: 30px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Droite > Droite@
+.droite-2--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.cards--p27 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Page > Sous page > Ready > Global > Droite > Droite@ > text
+.components-text--p27 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 5px;
+  }
+}
+// Radio button > Right Panel
+.right-panel--p27 {
+  &.outer-style {
+    width: 250px;
+    min-width: 250px;
+    position: sticky;
+    z-index: 999;
+    inset: 0px auto auto 0px;
+  }
+  &.template-style {
+    max-width: 250px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 0;
+      width: 100%;
+      min-width: 0;
+      overflow: inherit;
+      position: inherit;
+      z-index: 1000;
+      inset: inherit;
+      transform: translateX(0) translateY(0);
+    }
+    &.template-style {
+      max-width: none;
+    }
+  }
+}
+// Radio button > Right Panel > Sous Nav
+.sous-nav--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1001;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container
+.container-2--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container > text
+.contenu--p27 {
+  &.outer-style {
+    padding: 16px 0 8px 16px;
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.75rem;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1
+.container-1-container--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    padding: 0 0 0 24px;
+    z-index: 998;
+  }
+  &.property-style {
+    color: #6c6c6cff;
+    border-width: 0 0 0 3px;
+    border-color: #9c9c9cff;
+    border-style: solid;
+    padding: 0 0 0 10px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > titre
+.titre--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > titre
+.titre-text--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-text--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > titre
+.titre-1--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .titre-1--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie
+.sous-categorie--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-titre
+.sous-titre--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1.25rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie
+.sous-sous-categorie--p27 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    padding: 0 0 0 12px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-text--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-text--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-1--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-1--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Right Panel > Sous Nav > Container 1 > sous-categorie > sous-sous-categorie > sous-titre
+.sous-titre-2--p27 {
+  &.outer-style {
+    &.state-selected:not(#\ ):not(#\ ) {
+      .sous-titre-2--p27 {
+        &.property-style {
+          border-width: 0 0 0 3px;
+          border-style: solid;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 4px 0 4px 12px;
+    cursor: pointer;
+  }
+}
+// Radio button > Icon
+.icon-4--p27 {
+  &.outer-style {
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    position: absolute;
+    z-index: 997;
+    inset: auto 50px 50px auto;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-radius: 9999px 9999px 9999px 9999px;
+    overflow: hidden;
+    font-size: 33.333333333333336px;
+    text-align: center;
+    cursor: pointer;
+  }
+  &.template-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 2;
+      z-index: 998;
+    }
+  }
+}

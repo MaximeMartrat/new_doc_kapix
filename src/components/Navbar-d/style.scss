@@ -1,0 +1,19 @@
+.navright{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  right: 0;
+  width: 15%;
+  border-left: 1px solid grey;
+}
+.dark {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.light {
+  background-color: white;
+  color: black;
+  border-color: black;
+}

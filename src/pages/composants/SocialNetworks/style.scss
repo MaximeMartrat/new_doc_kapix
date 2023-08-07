@@ -1,0 +1,552 @@
+// Social Networks
+.social-networks--p14 {
+  &.outer-style {
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 985;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+// Social Networks > Main
+.main--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      order: 1;
+      z-index: 999;
+    }
+  }
+}
+// Social Networks > Main > Title
+.title--p14 {
+  &.outer-style {
+    height: 159px;
+    width: 100%;
+    min-height: 159px;
+    min-width: 0;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 159px;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Title > text
+.social-networks-text--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 3rem;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Title > Description
+.description--p14 {
+  &.outer-style {
+    width: 99.94%;
+    min-width: 0;
+    align-self: center;
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Basic
+.basic--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Basic > text
+.usage--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Basic > text 1
+.v-social-sharing--p14 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Basic > Social Sharing
+.email--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 998;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 100px;
+  }
+}
+// Social Networks > Main > Basic > Code Preview
+.code-preview--p14 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Social Networks > Main > Basic > text
+.api-il-manque-des--p14 {
+  &.outer-style {
+    height: 119px;
+    min-height: 119px;
+    z-index: 995;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+  &.template-style {
+    max-height: 119px;
+  }
+}
+// Social Networks > Main > Specific url
+.specific-url--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Specific url > text
+.exemple--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Specific url > text
+.usage-text--p14 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Specific url > text
+.specific-url-text--p14 {
+  &.outer-style {
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Specific url > text 1
+.you-can-set-the-specific--p14 {
+  &.outer-style {
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Specific url > Container
+.container--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.property-style {
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000ff;
+    border-style: solid;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Social Networks > Main > Specific url > Container > Social Sharing
+.moi-mir--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 50px;
+  }
+}
+// Social Networks > Main > Specific url > Container > Saisie de Texte
+.saisie-de-texte--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Social Networks > Main > Specific url > Code Preview
+.code-preview-1--p14 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 994;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Social Networks > Main > Type
+.type--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Type > Social Network Type
+.social-network-type--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Type > text 1
+.you-can-select-the--p14 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Type > Container
+.container-1--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Social Networks > Main > Type > Container > Social Sharing
+.object-object--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 50px;
+  }
+}
+// Social Networks > Main > Type > Container > Choix simple
+.choix-simple--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+    padding: 5px;
+  }
+}
+// Social Networks > Main > Type > Code Preview
+.code-preview-2--p14 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 996;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Social Networks > Main > Counter
+.counter--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Counter > text
+.social-counter--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Counter > text 1
+.you-can-choose-to-show--p14 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Counter > Container
+.container-2--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Social Networks > Main > Counter > Container > Social Sharing
+.reddit--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    color: #ff5923ff;
+    font-size: 50px;
+  }
+}
+// Social Networks > Main > Counter > Container > Case à cocher oui
+.case-a-cocher-oui--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+}
+// Social Networks > Main > Counter > Code Preview
+.code-preview-3--p14 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
+// Social Networks > Main > Icon
+.icon--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 995;
+  }
+  &.scroller-style {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: inherit;
+  }
+}
+// Social Networks > Main > Icon > text
+.icon-text--p14 {
+  &.outer-style {
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Icon > text 1
+.you-can-choose-the--p14 {
+  &.outer-style {
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    padding: 15px;
+  }
+}
+// Social Networks > Main > Icon > Container
+.container-3--p14 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+  }
+}
+// Social Networks > Main > Icon > Container > Social Sharing
+.email-social-sharing--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 50px;
+  }
+}
+// Social Networks > Main > Icon > Container > Social Sharing
+.email-1--p14 {
+  &.outer-style {
+    width: 50%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 999;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    font-size: 50px;
+  }
+}
+// Social Networks > Main > Icon > Code Preview
+.code-preview-4--p14 {
+  &.outer-style {
+    height: 500px;
+    width: 100%;
+    min-height: 500px;
+    min-width: 0;
+    z-index: 997;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.template-style {
+    max-height: 500px;
+  }
+}
