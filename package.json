@@ -59,6 +59,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.27.0",
+    "@iconify-json/bi": "^1.1.18",
     "@iconify-json/carbon": "1.1.8",
     "@iconify-json/fa": "1.1.2",
     "@iconify-json/fa-brands": "1.1.2",
@@ -66,6 +67,7 @@
     "@iconify-json/fa-solid": "1.1.2",
     "@iconify-json/fa6-solid": "^1.1.13",
     "@iconify-json/mdi": "1.1.33",
+    "@iconify-json/tabler": "^1.1.87",
     "@intlify/unplugin-vue-i18n": "0.8.1",
     "@rollup/pluginutils": "5.0.2",
     "@types/lodash-es": "4.17.6",

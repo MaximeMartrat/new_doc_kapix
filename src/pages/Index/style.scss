@@ -1,18 +1,28 @@
+.accueil-container{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 40% 10% 20% 30%;
+}
+.container-logo{
+  grid-row: 1;
+  height: 20em;
+}
 .img-accueil{
-  height: 250px !important;
-  width: 250px !important;
+  height: 15em !important;
+  width: 15em !important;
   margin: auto;
 }
 .big-title{
   text-align: center;
   font-size: 50px;
-}
-.accueil-container{
-  height: 100vh;
+  height: 1.5em;
 }
 .start-navigation-container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 5em;
+  grid-row: 2;
 }
 .start-button button{
   width: 150px;
@@ -23,4 +33,19 @@
 }
 .start-button button:hover{
   border: 1px solid black;
+}
+.start-footer-container{
+  grid-row: 4;
+  width: 100%;
+  text-align: center;
+}
+.image-footer{
+  height: 50px;
+  margin:auto;
+}
+.social-icon{
+  margin: 5px;
+}
+.footer-end-link{
+  margin: auto;
 }

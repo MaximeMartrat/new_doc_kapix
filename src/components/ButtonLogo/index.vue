@@ -2,7 +2,9 @@
   <button
     class="buttonLogo"
     @click="goHome">
-    <Logo /><p>KAPIX</p>
+    <Logo /><img
+      class="image-text"
+      src="/public/kapix.png">
   </button>
 </template>
 

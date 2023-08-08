@@ -1,0 +1,26 @@
+.confidential-container{
+  height: 35em;
+  width: 40em;
+  border-radius: 10px;
+  z-index: 1;
+  margin:auto;
+  overflow: hidden;
+}
+.confidential-content{
+  height: 100%;
+  margin: auto;
+  padding: 50px;
+  overflow-y: auto;
+  background-color: white;
+}
+.title-confidential{
+  text-align: center;
+}
+.container-background-confidential{
+  background-color: rgb(255,193,7);
+  height: 100vh;
+}
+.content-text-container{
+  height: 100%;
+  overflow: auto;
+}

@@ -27,7 +27,8 @@ const allPages = router.getRoutes().map(route => route.name).filter(name => name
 // Liste de pages inutiles
 const exceptionsPage = ['all', 'index', 'accueil']
 // filtre pour ignorer les pages inutiles
-const pages = allPages.map(page => page?.toString()).sort().filter(page => page !== undefined && !page.endsWith('en-US') && !page.endsWith('fr-FR') && !exceptionsPage.includes(page as string))
+const pageLocales = ['en-US', 'fr-FR', 'en-AU', 'ja-JP', 'es-PE', 'de-DE', 'ar-DZ']
+const pages = allPages.map(page => page?.toString()).sort().filter(page => page !== undefined && !pageLocales.some(locale => page.endsWith(locale)) && !exceptionsPage.includes(page as string))
 // pages de composants
 const composants = pages.map(page => page?.toString()).filter(page => page?.includes('composants'))
 </script>

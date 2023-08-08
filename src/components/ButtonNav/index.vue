@@ -64,9 +64,9 @@ const router = useRouter()
 // récupération de toutes les pages
 const allPages = router.getRoutes().map(route => route.name).filter(name => name)
 // Liste de pages inutiles
-const exceptionsPage = ['all', 'Navigation']
+const exceptionsPage = ['all', 'Navigation', 'index']
 const pageLocales = ['en-US', 'fr-FR', 'en-AU', 'ja-JP', 'es-PE', 'de-DE', 'ar-DZ']
-const pages = allPages.map(page => page?.toString()).sort().filter(page => page !== undefined && !pageLocales.some(locale => page.endsWith(locale)) && !exceptionsPage.includes(page as string))
+const pages = allPages.map(page => page?.toString()).sort().filter(page => page !== undefined && !pageLocales.some(locale => page.endsWith(locale)) && !page.startsWith('Politiques') && !exceptionsPage.includes(page as string))
 // pages d'intro
 const intro = pages.map(page => page?.toString()).filter(page => !page?.includes('composants'))
 // pages de composants

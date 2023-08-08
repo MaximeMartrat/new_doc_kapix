@@ -55,6 +55,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: 0.27.0
     version: 0.27.0(eslint@8.25.0)(typescript@4.8.4)
+  '@iconify-json/bi':
+    specifier: ^1.1.18
+    version: 1.1.18
   '@iconify-json/carbon':
     specifier: 1.1.8
     version: 1.1.8
@@ -76,6 +79,9 @@ devDependencies:
   '@iconify-json/mdi':
     specifier: 1.1.33
     version: 1.1.33
+  '@iconify-json/tabler':
+    specifier: ^1.1.87
+    version: 1.1.87
   '@intlify/unplugin-vue-i18n':
     specifier: 0.8.1
     version: 0.8.1(vue-i18n@9.2.2)
@@ -1908,6 +1914,12 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@iconify-json/bi@1.1.18:
+    resolution: {integrity: sha512-nAQd+4Eb2SuYKg/5oa/dlvIudgF5d57VYGkF7P0JbuUipFHk0l2vAQ0CdKYaz0L66PO0rabWDln449lhBE2UJQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/carbon@1.1.8:
     resolution: {integrity: sha512-aSoMgvZyvIXadLbMXcfS+qy8CVxSExvvp8Vd/nCrupLFc0KLKSukRInnVNc63zaHqoe1NBf5xUrgfyRYYfaKWQ==}
     dependencies:
@@ -1946,6 +1958,12 @@ packages:
 
   /@iconify-json/mdi@1.1.33:
     resolution: {integrity: sha512-P8zIjwYvQ6SsmHc02O4oNV3jsqbL4bXcfKSt9MfCPMBvF9CLzz6QHMzQgt/Okgsb8wfhkfSQeREp+dSxV9pLRA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/tabler@1.1.87:
+    resolution: {integrity: sha512-JkAZOAQDtHjQ4cOZbgJLOwH6yVsng8M6dEju7me5/5TOb9TlOCbSsKdHy2hUvr5wEgZAtCxvEStBmU/IKOo3Pw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true

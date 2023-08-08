@@ -2,7 +2,7 @@
   <div v-if="image">
     <img
       class="image-component"
-      :src="`/public/work-in-progress.png`"
+      :src="getImageSrc(link)"
       @click="checkLink(link)"
     />
     <button
@@ -25,6 +25,23 @@
 import './style.scss'
 import { checkLink } from './store'
 import { theme } from '~/components/ButtonStyle/store'
+
+// Fonction pour obtenir le chemin de l'image à afficher
+function getImageSrc (link: any) {
+  const imagePath = `/public/${link}.png`
+  const defaultImagePath = '/public/work-in-progress.png'
+  const xhr = new XMLHttpRequest()
+  xhr.open('HEAD', imagePath.toLowerCase(), false)
+  xhr.send()
+
+  if (xhr.status === 404) {
+    return defaultImagePath
+  }
+  else {
+    return imagePath
+  }
+}
+
 defineProps({
   link: {
     type: String,
